@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+local/
+private/
+observations/
+*.bkp
+*.apw
+*.apwz
+*.his
+*.edr
+*.fx3
+*.cn2
+.env
+auth.json

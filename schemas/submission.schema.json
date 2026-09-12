@@ -1,0 +1,398 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "item_id",
+    "revision",
+    "channel",
+    "content",
+    "content_sha256",
+    "contributor",
+    "publish",
+    "provenance",
+    "source",
+    "claim",
+    "events",
+    "synthetic"
+  ],
+  "properties": {
+    "schema": {
+      "const": "experience-inbox-submission-v1"
+    },
+    "item_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,99}$"
+    },
+    "revision": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "channel": {
+      "enum": [
+        "executed_success",
+        "thought_principle"
+      ]
+    },
+    "content": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "counterexamples",
+        "evidence_summary",
+        "limits",
+        "method",
+        "title",
+        "trigger"
+      ],
+      "properties": {
+        "counterexamples": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4000
+        },
+        "evidence_summary": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4000
+        },
+        "limits": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4000
+        },
+        "method": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4000
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200
+        },
+        "trigger": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4000
+        }
+      }
+    },
+    "content_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "contributor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,99}$"
+        }
+      }
+    },
+    "publish": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "opt_in",
+        "scope",
+        "license",
+        "event_id",
+        "content_sha256",
+        "revoked"
+      ],
+      "properties": {
+        "opt_in": {
+          "type": "boolean"
+        },
+        "scope": {
+          "const": "sanitized_method_summary"
+        },
+        "license": {
+          "const": "CC-BY-4.0"
+        },
+        "event_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,99}$"
+        },
+        "content_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "revoked": {
+          "type": "boolean"
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "state",
+        "ancestry_complete",
+        "ancestor_states"
+      ],
+      "properties": {
+        "state": {
+          "type": "string"
+        },
+        "ancestry_complete": {
+          "type": "boolean"
+        },
+        "ancestor_states": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "repository",
+        "commit",
+        "skill_version"
+      ],
+      "properties": {
+        "repository": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "commit": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^(?:[0-9a-f]{40}|[0-9a-f]{64})$"
+        },
+        "skill_version": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9][A-Za-z0-9.+_-]{0,59}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    },
+    "claim": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind",
+        "tested_commit",
+        "source_digest",
+        "evidence_digest",
+        "check_name",
+        "run_id"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "code_behavior",
+            "deterministic_calculation",
+            "aspen_simulation_clean",
+            "aspen_engineering_accepted",
+            "native_tool_executed",
+            "behavioral_principle"
+          ]
+        },
+        "tested_commit": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^(?:[0-9a-f]{40}|[0-9a-f]{64})$"
+        },
+        "source_digest": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "evidence_digest": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "check_name": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,99}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "run_id": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,99}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    },
+    "events": {
+      "type": "array",
+      "maxItems": 20,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "type",
+          "actor_id",
+          "actor_role",
+          "item_id",
+          "revision",
+          "content_sha256",
+          "occurred_at",
+          "decision",
+          "source_digest"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,99}$"
+          },
+          "type": {
+            "enum": [
+              "user_confirmation",
+              "assistant_review"
+            ]
+          },
+          "actor_id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,99}$"
+          },
+          "actor_role": {
+            "enum": [
+              "user",
+              "assistant"
+            ]
+          },
+          "item_id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,99}$"
+          },
+          "revision": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "content_sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "occurred_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "decision": {
+            "enum": [
+              "confirm",
+              "approve"
+            ]
+          },
+          "source_digest": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        }
+      }
+    },
+    "synthetic": {
+      "type": "boolean"
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Sanitized temporary experience submission",
+  "description": "Structural validation only. Admission requires the Python gate and separately acquired trusted observations. Synthetic examples are not real evidence.",
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "channel": {
+            "const": "executed_success"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "events": {
+            "maxItems": 0
+          },
+          "source": {
+            "properties": {
+              "repository": {
+                "type": "string"
+              },
+              "commit": {
+                "type": "string"
+              },
+              "skill_version": {
+                "type": "string"
+              }
+            }
+          },
+          "claim": {
+            "properties": {
+              "kind": {
+                "not": {
+                  "const": "behavioral_principle"
+                }
+              },
+              "tested_commit": {
+                "type": "string"
+              },
+              "check_name": {
+                "type": "string"
+              },
+              "run_id": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "claim": {
+            "properties": {
+              "kind": {
+                "const": "behavioral_principle"
+              },
+              "check_name": {
+                "type": "null"
+              },
+              "run_id": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

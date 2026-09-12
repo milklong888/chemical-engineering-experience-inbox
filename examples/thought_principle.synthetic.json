@@ -1,0 +1,74 @@
+{
+  "schema": "experience-inbox-submission-v1",
+  "item_id": "synthetic-example-001",
+  "revision": 1,
+  "channel": "thought_principle",
+  "content": {
+    "title": "Synthetic principle confirmation example",
+    "trigger": "A parser input changes.",
+    "method": "Review applicability before treating a preference as a general principle.",
+    "limits": "Behavioral proposal only; no numerical or engineering result is asserted.",
+    "evidence_summary": "Synthetic demonstration of an admission shape, no actual run.",
+    "counterexamples": "A green unrelated job and an old tested commit do not qualify."
+  },
+  "content_sha256": "1863fcf1f625e2c31d66bd7cde8ed6b7a8711b240c4fa272ef97fb4437f7621f",
+  "contributor": {
+    "id": "synthetic-contributor"
+  },
+  "publish": {
+    "opt_in": true,
+    "scope": "sanitized_method_summary",
+    "license": "CC-BY-4.0",
+    "event_id": "synthetic-opt-in",
+    "content_sha256": "1863fcf1f625e2c31d66bd7cde8ed6b7a8711b240c4fa272ef97fb4437f7621f",
+    "revoked": false
+  },
+  "provenance": {
+    "state": "strict_verified",
+    "ancestry_complete": true,
+    "ancestor_states": [
+      "source_verified",
+      "strict_verified"
+    ]
+  },
+  "source": {
+    "repository": null,
+    "commit": null,
+    "skill_version": null
+  },
+  "claim": {
+    "kind": "behavioral_principle",
+    "tested_commit": null,
+    "source_digest": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+    "evidence_digest": "8c9355bbc1cde3d554bb0c9434cb46bb1ba2b84f5a6bb85184bf2f256520bd30",
+    "check_name": null,
+    "run_id": null
+  },
+  "events": [
+    {
+      "id": "synthetic-user_confirmation",
+      "type": "user_confirmation",
+      "actor_id": "synthetic-contributor",
+      "actor_role": "user",
+      "item_id": "synthetic-example-001",
+      "revision": 1,
+      "content_sha256": "1863fcf1f625e2c31d66bd7cde8ed6b7a8711b240c4fa272ef97fb4437f7621f",
+      "occurred_at": "2026-09-12T11:10:00Z",
+      "decision": "confirm",
+      "source_digest": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+    },
+    {
+      "id": "synthetic-assistant_review",
+      "type": "assistant_review",
+      "actor_id": "synthetic-reviewer",
+      "actor_role": "assistant",
+      "item_id": "synthetic-example-001",
+      "revision": 1,
+      "content_sha256": "1863fcf1f625e2c31d66bd7cde8ed6b7a8711b240c4fa272ef97fb4437f7621f",
+      "occurred_at": "2026-09-12T11:20:00Z",
+      "decision": "approve",
+      "source_digest": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+    }
+  ],
+  "synthetic": true
+}
