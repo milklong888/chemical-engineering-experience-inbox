@@ -1,0 +1,34 @@
+{
+  "schema": "experience-inbox-public-record-v1",
+  "item_id": "EXP-20260912-001",
+  "revision": 1,
+  "channel": "executed_success",
+  "content": {
+    "counterexamples": "输入只有自报成功、审核早于确认、用代码测试背书 Aspen、变更摘要沿用旧授权，或来源谱系未知时，当前检查器不授予真实经验收件资格。",
+    "evidence_summary": "准确源提交的 GitHub Actions 检查成功，本地重放和远端均为 69 项测试通过。测试涵盖内容变化、旧版本检查、授权撤回、确认与审核顺序、放宽谱系和不相干成功范围。",
+    "limits": "仅验证本仓库 0.1.0 准入检查器的离线代码行为。合成输入用于代码反例测试；未运行 Aspen、EDR、SW6，也未验证工程设计或方法的普遍适用性。",
+    "method": "对当前方法摘要计算内容指纹，将贡献者授权、确认和后续审核绑定到同一条目版本；独立核对准确提交及相关执行结果，输出有范围的临时收件决定。",
+    "title": "准入确认绑定内容版本，核对执行范围后再收件",
+    "trigger": "临时收件出现旧确认、旧提交或无关绿色检查时。"
+  },
+  "content_sha256": "ff2c33a827e2a528ea79ac60226637571d794092a55df0b4e7112c86c06f7238",
+  "contributor": "milklong888",
+  "license": "CC-BY-4.0",
+  "source": {
+    "repository": "milklong888/chemical-engineering-experience-inbox",
+    "commit": "f82519d2d7a634da242c923f38b1443cbd56e01e",
+    "skill_version": "0.1.0"
+  },
+  "claim": {
+    "kind": "code_behavior",
+    "tested_commit": "f82519d2d7a634da242c923f38b1443cbd56e01e",
+    "source_digest": "f9dde284e6084430867e7a3821d35842a6ed0bcef586c084b4db3ed980d60636",
+    "evidence_digest": "3b017494235efe17561156f17b908de995ca9bcdb79146ee52be4ed09814c54a",
+    "check_name": "gate-tests",
+    "run_id": "34692830608"
+  },
+  "submission_sha256": "351099c506e96249343d649777faa4e48ebdceb299f21b335e89a9931f8a6bfd",
+  "status": "temporary_inbox",
+  "canonical_eligible": false,
+  "default_retrieval_eligible": false
+}
