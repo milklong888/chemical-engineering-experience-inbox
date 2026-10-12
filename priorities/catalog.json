@@ -1,0 +1,72 @@
+{
+  "schema": "experience-priority-catalog-v1",
+  "levels": [
+    {
+      "priority": "P0_bug",
+      "rank": 0,
+      "label": "最高优先级 / bug级"
+    },
+    {
+      "priority": "normal",
+      "rank": 100,
+      "label": "普通池"
+    }
+  ],
+  "default_priority": "normal",
+  "priority_is_not_admission": true,
+  "items": [
+    {
+      "id": "EXP-20261012-user-required-guards",
+      "priority": "P0_bug",
+      "category": "user_requirement",
+      "admission_state": "proposal",
+      "path": "proposals/EXP-20261012-user-required-guards.md",
+      "source": "explicit_user_requirement",
+      "subitems": [
+        "P0-001",
+        "P0-002",
+        "P0-003",
+        "P0-004",
+        "P0-005",
+        "P0-006",
+        "P0-007",
+        "P0-008",
+        "P0-009",
+        "P0-010",
+        "P0-011",
+        "P0-012",
+        "P0-013",
+        "P0-014",
+        "P0-015"
+      ],
+      "default_canonical": false
+    },
+    {
+      "id": "EXP-20261012-operating-techniques",
+      "priority": "normal",
+      "category": "technique",
+      "admission_state": "proposal",
+      "path": "proposals/EXP-20261012-operating-techniques.md",
+      "subitems": [
+        "T-001",
+        "T-002",
+        "T-003",
+        "T-004"
+      ],
+      "default_canonical": false
+    },
+    {
+      "id": "EXP-20261012-aspen-evidence-parser",
+      "priority": "normal",
+      "category": "script",
+      "admission_state": "proposal",
+      "path": "pool/scripts/aspen-evidence/README.md",
+      "public_source_repository": "milklong888/chemical-engineering-skills",
+      "public_source_commit": "fdd6a1e6d56279e6376dada934a230aea3be85ab",
+      "source_sha256": "7465D04FC8D1114D65A9F64C94ABDA32FA885B7A6C8E493AEC4B90034E9A3F31",
+      "verification_scope": "offline_synthetic_text_parser_tests_only",
+      "default_canonical": false
+    }
+  ]
+}
+
