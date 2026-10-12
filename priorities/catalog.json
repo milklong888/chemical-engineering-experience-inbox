@@ -66,7 +66,18 @@
       "source_sha256": "7465D04FC8D1114D65A9F64C94ABDA32FA885B7A6C8E493AEC4B90034E9A3F31",
       "verification_scope": "offline_synthetic_text_parser_tests_only",
       "default_canonical": false
+    },
+    {
+      "id": "EXP-20261013-local-artifact-delivery",
+      "priority": "normal",
+      "category": "script",
+      "admission_state": "proposal",
+      "path": "pool/scripts/local-artifact-delivery/README.md",
+      "proposal_path": "proposals/EXP-20261013-local-artifact-delivery.md",
+      "public_source_repository": "milklong888/chemical-engineering-experience-inbox",
+      "source_sha256": "FC2289B65DD3E0261C85AFF36972866F603A8B02A3D629F9DC1A8AD5A14E3036",
+      "verification_scope": "synthetic_http_bytes_and_resource_lifecycle_only",
+      "default_canonical": false
     }
   ]
 }
-
