@@ -1,0 +1,28 @@
+{
+  "schema": "public-script-source-v1",
+  "item_id": "EXP-20261012-aspen-evidence-parser",
+  "priority": "normal",
+  "source_repository": "https://github.com/milklong888/chemical-engineering-skills",
+  "source_commit": "fdd6a1e6d56279e6376dada934a230aea3be85ab",
+  "source_paths": {
+    "code": "plugins/chemical-engineering-skills/skills/aspen-plus-operations/scripts/aspen_evidence.py",
+    "tests": "plugins/chemical-engineering-skills/skills/aspen-plus-operations/scripts/tests/test_aspen_evidence.py"
+  },
+  "source_sha256": "7465D04FC8D1114D65A9F64C94ABDA32FA885B7A6C8E493AEC4B90034E9A3F31",
+  "test_sha256": "D830F107E1E47EFB7C9423D1DCB2B52EAF90F515C5885C1E8DBCC54BB1514279",
+  "license": "MIT",
+  "license_reference_commit": "98a2ea53a127cad7e2fecd0df447a89f5ca014a0",
+  "license_sha256": "8F4BEF63A4B64C590F3C18A1BAB8088F6329BC22601D0DF3E1CA076379E7E9D6",
+  "third_party_notices_sha256": "723DBD01AE13AB6738BFB402462B81007E8364A0DC1C8087C48EF5F3ABA96F12",
+  "original_bytes_preserved": true,
+  "verification": {
+    "kind": "offline_synthetic_text_parser_tests",
+    "observed_test_count": 27,
+    "observed_exit_code": 0,
+    "aspen_com_started": false,
+    "actual_aspen_case_verified": false
+  },
+  "admission_state": "tool_copy_and_proposal_only",
+  "default_canonical": false
+}
+

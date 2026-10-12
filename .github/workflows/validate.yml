@@ -17,3 +17,5 @@ jobs:
           python-version: '3.14'
       - name: Run deterministic admission checks
         run: python -B -m unittest discover -s tests -v
+      - name: Run ordinary-pool parser regression
+        run: python -B -m unittest discover -s pool/scripts/aspen-evidence/tests -v
