@@ -78,6 +78,40 @@
       "source_sha256": "FC2289B65DD3E0261C85AFF36972866F603A8B02A3D629F9DC1A8AD5A14E3036",
       "verification_scope": "synthetic_http_bytes_and_resource_lifecycle_only",
       "default_canonical": false
+    },
+    {
+      "id": "EXP-20261017-verifiable-acceptance-and-closure",
+      "priority": "P0_bug",
+      "category": "user_requirement",
+      "admission_state": "proposal",
+      "path": "proposals/EXP-20261017-verifiable-acceptance-and-closure.md",
+      "source": "explicit_user_requirement",
+      "subitems": [
+        "P0-016",
+        "P0-017",
+        "P0-018",
+        "P0-019",
+        "P0-020",
+        "P0-021",
+        "P0-022"
+      ],
+      "refines": [
+        "P0-009",
+        "P0-010",
+        "P0-013",
+        "P0-014"
+      ],
+      "default_canonical": false
+    },
+    {
+      "id": "EXP-20261017-process-review-working-method",
+      "priority": "normal",
+      "category": "technique",
+      "admission_state": "proposal",
+      "path": "proposals/EXP-20261017-process-review-working-method.md",
+      "source": "explicit_user_workflow_requirement",
+      "verification_scope": "behavioral_workflow_proposal_only_no_engineering_success_claim",
+      "default_canonical": false
     }
   ]
 }
