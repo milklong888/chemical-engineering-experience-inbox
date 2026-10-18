@@ -11,6 +11,8 @@
 | **P0 / bug级，最高优先级** | 用户明确强调的要求与纠正，先检查适用范围、优先处理命中问题 | [P0用户要求](proposals/EXP-20261012-user-required-guards.md) |
 | **普通池** | 操作技巧、可复用脚本和一般经验 | [操作技巧](proposals/EXP-20261012-operating-techniques.md) · [脚本池](pool/scripts/aspen-evidence/README.md) |
 
+新增候选：[P0/Bug级：无依据的产品末端调温](proposals/EXP-20261018-terminal-product-conditioning.md)；[热泵单岛与回接背景/方法](proposals/EXP-20261018-heat-pump-flow-boundaries.md)；[流程边界与COM回调脚本](pool/scripts/flowsheet-boundary-tools/README.md)。均为待审核候选，不表示正式收件或工程验收。
+
 [分级规则](docs/PRIORITY_POLICY.md) · [机读优先级目录](priorities/catalog.json)。分级不等于准入；候选与已收件状态仍按下方流程区分。
 
 | 经验类型 | 进入临时箱的条件 |

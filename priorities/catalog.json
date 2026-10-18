@@ -78,6 +78,33 @@
       "source_sha256": "FC2289B65DD3E0261C85AFF36972866F603A8B02A3D629F9DC1A8AD5A14E3036",
       "verification_scope": "synthetic_http_bytes_and_resource_lifecycle_only",
       "default_canonical": false
+    },
+    {
+      "id": "EXP-20261018-terminal-product-conditioning",
+      "priority": "P0_bug",
+      "category": "user_requirement",
+      "admission_state": "proposal",
+      "path": "proposals/EXP-20261018-terminal-product-conditioning.md",
+      "source": "explicit_user_bug_classification",
+      "default_canonical": false
+    },
+    {
+      "id": "EXP-20261018-heat-pump-flow-boundaries",
+      "priority": "normal",
+      "category": "experience",
+      "admission_state": "proposal",
+      "path": "proposals/EXP-20261018-heat-pump-flow-boundaries.md",
+      "default_canonical": false
+    },
+    {
+      "id": "EXP-20261018-flowsheet-boundary-tools",
+      "priority": "normal",
+      "category": "script",
+      "admission_state": "proposal",
+      "path": "pool/scripts/flowsheet-boundary-tools/README.md",
+      "public_source_repository": "milklong888/chemical-engineering-experience-inbox",
+      "verification_scope": "bounded_synthetic_code_contracts_and_private_native_callback_readback_only",
+      "default_canonical": false
     }
   ]
 }

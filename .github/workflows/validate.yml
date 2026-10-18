@@ -21,3 +21,5 @@ jobs:
         run: python -B -m unittest discover -s pool/scripts/aspen-evidence/tests -v
       - name: Run ordinary-pool local artifact delivery checks
         run: python -B -X utf8 -m unittest discover -s pool/scripts/local-artifact-delivery/tests -v
+      - name: Run ordinary-pool flowsheet boundary checks
+        run: python -B -X utf8 -m unittest discover -s pool/scripts/flowsheet-boundary-tools/tests -v
