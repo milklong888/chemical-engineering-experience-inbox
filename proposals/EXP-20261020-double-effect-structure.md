@@ -11,6 +11,8 @@ priority：normal
 
 “双效”不足以唯一决定物料连接。拟建立与热泵专业模块同层的独立方法入口，但本轮仅存改进卡，不安装、不改活动Skill。卡片关联[分构型harness](EXP-20261020-double-effect-harness.md)。
 
+本轮补充[逐股连接与各构型禁则](EXP-20261020-double-effect-connections-detail.md)，以及[10轮文本对抗练习与复核](EXP-20261020-double-effect-adversarial-10.md)。这些内容不升级本卡的准入或工程验证状态。
+
 ## 候选结构，而非固定配方
 
 | 结构维度 | 模块与接口表达 | 选择前必须明确 |
