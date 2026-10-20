@@ -1,7 +1,7 @@
 {
   "schema": "improvement-card-collection-v1",
   "collection_id": "EXP-20261020-aspen-structure-cards",
-  "revision": 3,
+  "revision": 4,
   "state": "proposal_only_pending_maintainer_review",
   "canonical_eligible": false,
   "default_retrieval_eligible": false,
@@ -10,7 +10,7 @@
   "aspen_execution_claim": false,
   "priority_is_not_admission": true,
   "candidate_packages": [
-    {"path":"../skill_candidates/aspen-double-effect-distillation/SKILL.md","installed":false,"case_diagrams":3,"contains_test_prompts":false}
+    {"path":"../skill_candidates/aspen-double-effect-distillation/SKILL.md","installed":false,"case_diagrams":4,"contains_test_prompts":false}
   ],
   "cards": [
     {"id":"EXP-20261020-aspen-material-library","priority":"normal","kind":"architecture_proposal","path":"EXP-20261020-aspen-material-library.md","depends_on":[]},
@@ -19,6 +19,7 @@
     {"id":"EXP-20261020-double-effect-connections-detail","priority":"normal","kind":"configuration_specific_connections_proposal","path":"EXP-20261020-double-effect-connections-detail.md","depends_on":["EXP-20261020-double-effect-structure","EXP-20261020-double-effect-harness"]},
     {"id":"EXP-20261020-double-effect-adversarial-10","priority":"normal","kind":"sequential_text_evaluation_proposal","path":"EXP-20261020-double-effect-adversarial-10.md","depends_on":["EXP-20261020-double-effect-connections-detail"]},
     {"id":"EXP-20261020-double-effect-fresh-context-test","priority":"normal","kind":"fresh_context_evaluation_proposal","path":"EXP-20261020-double-effect-fresh-context-test.md","depends_on":["EXP-20261020-double-effect-connections-detail"]},
+    {"id":"EXP-20261020-double-effect-round3","priority":"normal","kind":"source_boundary_and_reflux_evaluation_proposal","path":"EXP-20261020-double-effect-round3.md","depends_on":["EXP-20261020-double-effect-connections-detail"]},
     {"id":"EXP-20261020-aspen-small-patterns","priority":"normal","kind":"task_to_module_proposal","path":"EXP-20261020-aspen-small-patterns.md","depends_on":["EXP-20261020-aspen-material-library"]}
   ]
 }
