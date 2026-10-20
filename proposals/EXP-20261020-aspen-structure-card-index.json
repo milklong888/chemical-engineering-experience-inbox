@@ -1,0 +1,18 @@
+{
+  "schema": "improvement-card-collection-v1",
+  "collection_id": "EXP-20261020-aspen-structure-cards",
+  "revision": 1,
+  "state": "proposal_only_pending_maintainer_review",
+  "canonical_eligible": false,
+  "default_retrieval_eligible": false,
+  "installed_skill": false,
+  "implemented_database": false,
+  "aspen_execution_claim": false,
+  "priority_is_not_admission": true,
+  "cards": [
+    {"id":"EXP-20261020-aspen-material-library","priority":"normal","kind":"architecture_proposal","path":"EXP-20261020-aspen-material-library.md","depends_on":[]},
+    {"id":"EXP-20261020-double-effect-structure","priority":"normal","kind":"method_design_proposal","path":"EXP-20261020-double-effect-structure.md","depends_on":["EXP-20261020-aspen-material-library"]},
+    {"id":"EXP-20261020-double-effect-harness","priority":"P0_bug","kind":"user_guard_and_scoped_review_proposal","path":"EXP-20261020-double-effect-harness.md","depends_on":["EXP-20261020-double-effect-structure"]},
+    {"id":"EXP-20261020-aspen-small-patterns","priority":"normal","kind":"task_to_module_proposal","path":"EXP-20261020-aspen-small-patterns.md","depends_on":["EXP-20261020-aspen-material-library"]}
+  ]
+}
