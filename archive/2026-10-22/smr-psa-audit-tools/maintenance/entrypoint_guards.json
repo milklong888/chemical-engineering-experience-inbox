@@ -1,0 +1,33 @@
+{
+  "schema": "direct-user-maintenance-front-guards-v1",
+  "source": "explicit_user_workflow_maintenance_20261022",
+  "owners": [
+    {
+      "owner": "chemical-engineering-expert",
+      "placement": "immediately_after_title_before_workflow",
+      "installed_file_sha256": "b1cd7758c529ed946b8fcabce3d2159f7ccdb156dab79fe481ab7a67a57e25bf",
+      "front_guard": "**前置P0**：参数、软件语义或诊断来源不明确时，在提出无依据假设或修改模型前，执行[原生图谱 → 官方知识库 → 最后websearch](references/KNOWLEDGE_LOOKUP_ESCALATION.md)。来源不明的warning同样立即触发，记录逐层证据、复跑和剩余状态。"
+    },
+    {
+      "owner": "aspen-document-driven-flowsheet",
+      "placement": "immediately_after_title_before_workflow",
+      "installed_file_sha256": "d36f3cffb8d24b0fc583a8ca4313886f97c16b3e79dd20683cc5ecf4b8f58f0c",
+      "front_guard": "**前置P0**：参数、模型表达或诊断缺少依据时，先按[原生图谱 → 官方知识库 → 最后websearch](../chemical-engineering-expert/references/KNOWLEDGE_LOOKUP_ESCALATION.md)查证，再冻结或修改相应输入。未知warning立即走同一路径并留账，不能留到交付末尾猜因。"
+    },
+    {
+      "owner": "aspen-flowsheet-error-repair",
+      "placement": "immediately_after_title_before_workflow",
+      "installed_file_sha256": "38f90912a693df3735fc2a24c2c10be3a9ce6b809d343505ea32f5f82db02fbc",
+      "front_guard": "**前置P0**：收到来源不明的error/warning，或参数/字段依据不足时，在列无依据假设或改模型前，执行[原生图谱 → 官方知识库 → 最后websearch](../chemical-engineering-expert/references/KNOWLEDGE_LOOKUP_ESCALATION.md)，保存每层命中/缺口、同案验证及剩余原生计数。"
+    },
+    {
+      "owner": "aspen-plus-operations",
+      "placement": "immediately_after_title_before_workflow",
+      "installed_file_sha256": "35d099ff067a419dee4297b5188694fca38dd4a20d172c11cc7be9923bebdeef",
+      "front_guard": "**前置P0**：参数、卡片或诊断来源不明确时，在猜测、写卡或改模型前，执行[原生图谱 → 官方知识库 → 最后websearch](../chemical-engineering-expert/references/KNOWLEDGE_LOOKUP_ESCALATION.md)。未知warning同样在此触发并留账；具体报错消失不能代替原生总计数核验。"
+    }
+  ],
+  "technical_defaults_changed": false,
+  "strict_gates_changed": false,
+  "read_only_native_graph_changed": false
+}

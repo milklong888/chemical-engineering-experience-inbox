@@ -1,5 +1,7 @@
 # 本仓库维护入口
 
+**当前前置P0**：先核[来源升级与未知warning](proposals/EXP-20261022-knowledge-escalation-p0.md)是否命中，再形成诊断假设或处理普通技巧/脚本。原生图谱不足才查官方知识库，仍无解最后websearch；逐层记录。
+
 先读 docs/PRIORITY_POLICY.md 与 priorities/catalog.json。检查和整理候选时先核匹配的P0 / bug级用户要求，再看普通技巧、脚本与经验；保留适用范围，不让旧记录覆盖当前用户指示和物理约束。
 
 优先级与准入状态分开；提交候选、CI通过或合并不等于收件。继续遵守 docs/ADMISSION_PROTOCOL.md。脚本采用来源与许可绑定，运行证据只按其实际范围表述。不要上传模型、原始日志、用户消息、私人路径或放宽来源的成功经验。

@@ -1,5 +1,7 @@
 # 化工经验临时收件箱
 
+**前置bug级要求**：[原生图谱 → 官方知识库 → 最后websearch；未知warning立即同序留账](proposals/EXP-20261022-knowledge-escalation-p0.md)。在无依据假设、写参数或改模型前触发。
+
 收集可公开、可追溯的方法经验，供维护者定期整理进 [chemical-engineering-skills](https://github.com/milklong888/chemical-engineering-skills) 和已有知识图谱。
 
 这里的条目是**临时经验**，不直接成为工程事实、Skill 默认规则或默认检索知识。仓库不包含 Aspen 模型，也不自动采集任何用户的项目。
