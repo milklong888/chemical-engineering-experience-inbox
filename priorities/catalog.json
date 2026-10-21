@@ -103,6 +103,22 @@
       "verification_scope": "offline_export_facts_and_comparison_synthetic_tests_only",
       "default_canonical": false,
       "default_retrieval_eligible": false
+    },
+    {
+      "id": "EXP-20261022-convergence-diagnostics",
+      "priority": "normal",
+      "rank": 100,
+      "category": "technique",
+      "admission_state": "method_and_code_reference_not_engineering_success",
+      "path": "pool/techniques/convergence-diagnostics.md",
+      "scripts_path": "pool/scripts/convergence-diagnostics/README.md",
+      "proposal_path": "proposals/EXP-20261022-convergence-diagnostics.md",
+      "source": "explicit_user_request_for_portable_methods_and_scripts",
+      "verification_scope": "synthetic_offline_variant_and_observation_audits_only",
+      "engineering_success_claimed": false,
+      "default_canonical": false,
+      "default_retrieval_eligible": false,
+      "tolerance_default": null
     }
   ]
 }
