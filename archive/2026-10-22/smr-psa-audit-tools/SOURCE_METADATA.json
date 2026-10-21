@@ -1,0 +1,38 @@
+{
+  "schema": "audit-reference-source-metadata-v1",
+  "public_source_repository": "milklong888/chemical-engineering-experience-inbox",
+  "source_kind": "user-authorized_original_offline_interface_extraction",
+  "code_license": "MIT",
+  "text_license": "CC-BY-4.0",
+  "files": [
+    {
+      "path": "scripts/compare_exported_streams.py",
+      "bytes": 8582,
+      "sha256": "6c71dfcb974d548215497762abe4bdcea251f035c7556b65ccadbd07821ef9e8"
+    },
+    {
+      "path": "scripts/exported_phase_facts.py",
+      "bytes": 7925,
+      "sha256": "46fd1c3b33a872c692034be2a6fe81627e53ce624b054f8fc4caaa0b3556bd73"
+    },
+    {
+      "path": "tests/test_audit_tools.py",
+      "bytes": 11743,
+      "sha256": "93e65be70596c2496937a1722a837e51d666b757adb96a334fa3a7dd1c9d5b8e"
+    },
+    {
+      "path": "tests/test_safety_edges.py",
+      "bytes": 4861,
+      "sha256": "6a9fd50a6c00603301aa05e8d3b4bbac454baa7d382d95688a174c745d9278e7"
+    }
+  ],
+  "verification_scope": "10 synthetic black-box offline tests; no Aspen/COM/network/engineering acceptance",
+  "tests_command": "python -B -X utf8 -m unittest discover -s archive/2026-10-22/smr-psa-audit-tools/tests -v",
+  "inbox_admission": false,
+  "technical_generalization_verified": false,
+  "learning_eligible": false,
+  "success_case_eligible": false,
+  "default_retrieval_eligible": false,
+  "canonical_eligible": false,
+  "project_model_parameters_logs_and_private_paths_in_public_tree": false
+}

@@ -16,6 +16,21 @@
   "priority_is_not_admission": true,
   "items": [
     {
+      "id": "EXP-20261022-knowledge-escalation-p0",
+      "priority": "P0_bug",
+      "rank": 0,
+      "category": "user_requirement",
+      "admission_state": "proposal",
+      "path": "proposals/EXP-20261022-knowledge-escalation-p0.md",
+      "source": "explicit_user_maintenance_request",
+      "subitems": [
+        "P0-016",
+        "P0-017"
+      ],
+      "trigger_stage": "before_unsupported_hypothesis_parameter_entry_or_model_change",
+      "default_canonical": false
+    },
+    {
       "id": "EXP-20261012-user-required-guards",
       "priority": "P0_bug",
       "category": "user_requirement",
@@ -78,6 +93,16 @@
       "source_sha256": "FC2289B65DD3E0261C85AFF36972866F603A8B02A3D629F9DC1A8AD5A14E3036",
       "verification_scope": "synthetic_http_bytes_and_resource_lifecycle_only",
       "default_canonical": false
+    },
+    {
+      "id": "EXP-20261022-offline-audit-reference-tools",
+      "priority": "normal",
+      "category": "script",
+      "admission_state": "audit_reference_not_success",
+      "path": "archive/2026-10-22/smr-psa-audit-tools/README.md",
+      "verification_scope": "offline_export_facts_and_comparison_synthetic_tests_only",
+      "default_canonical": false,
+      "default_retrieval_eligible": false
     }
   ]
 }
