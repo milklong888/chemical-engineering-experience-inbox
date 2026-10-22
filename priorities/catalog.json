@@ -119,6 +119,21 @@
       "default_canonical": false,
       "default_retrieval_eligible": false,
       "tolerance_default": null
+    },
+    {
+      "id": "EXP-20261022-acm-membrane-product-methods",
+      "priority": "normal",
+      "rank": 100,
+      "category": "method_reference",
+      "admission_state": "method_reference_not_engineering_success",
+      "path": "pool/techniques/acm-gas-membrane-modeling.md",
+      "presentation_path": "pool/techniques/engineering-model-product-presentation.md",
+      "proposal_path": "proposals/EXP-20261022-acm-membrane-product-methods.md",
+      "source": "explicit_user_request_to_summarize_and_update_experience_library",
+      "verification_scope": "public_source_and_documentation_review_only",
+      "engineering_success_claimed": false,
+      "default_canonical": false,
+      "default_retrieval_eligible": false
     }
   ]
 }
