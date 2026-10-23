@@ -25,3 +25,5 @@ jobs:
         run: python -B -X utf8 -m unittest discover -s archive/2026-10-22/smr-psa-audit-tools/tests -v
       - name: Run portable convergence diagnostics checks
         run: python -B -X utf8 -m unittest discover -s pool/scripts/convergence-diagnostics/tests -v
+      - name: Run native-layout offline graphics checks
+        run: python -B -X utf8 -m unittest discover -s pool/scripts/aspen-native-layout/tests -v

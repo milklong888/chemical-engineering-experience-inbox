@@ -17,6 +17,9 @@
 
 [收敛诊断方法与脚本](pool/scripts/convergence-diagnostics/README.md)：二分隔离、内外层精度核查和冷启动/有界初值扰动核查。精度按项目显式给定，无通用默认值；公共离线代码测试与工程验收分开。
 
+[Aspen原生排布工具与子技能候选](pool/scripts/aspen-native-layout/README.md)：模块方向、图形附着点、流股折点与保存复开检查，附独立tools接口章节。
+[五级双工质热泵结构素材](pool/materials/five-stage-water-source-heat-pump.md)：冷媒闭环与水侧串联/分合流组织；本地原件不上传，参数不作通用默认。
+
 | 经验类型 | 进入临时箱的条件 |
 | --- | --- |
 | 实际跑通的经验 | 核实准确代码版本、相关执行结果、证据摘要、适用范围和来源链；核实投稿者公开授权及脱敏结果后直接收件 |

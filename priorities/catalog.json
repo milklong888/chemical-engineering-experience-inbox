@@ -134,6 +134,37 @@
       "engineering_success_claimed": false,
       "default_canonical": false,
       "default_retrieval_eligible": false
+    },
+    {
+      "id": "EXP-20261023-aspen-native-layout",
+      "priority": "normal",
+      "rank": 100,
+      "category": "script_and_subskill_candidate",
+      "admission_state": "method_and_code_reference_not_engineering_success",
+      "path": "pool/scripts/aspen-native-layout/README.md",
+      "proposal_path": "proposals/EXP-20261023-aspen-native-layout.md",
+      "skill_candidate_path": "pool/scripts/aspen-native-layout/SKILL.md",
+      "interfaces_path": "pool/scripts/aspen-native-layout/references/tools-interface.md",
+      "source": "explicit_user_request_to_update_experience_first",
+      "verification_scope": "offline_graphics_code_and_bounded_private_native_roundtrip_separately_recorded",
+      "engineering_success_claimed": false,
+      "default_canonical": false,
+      "default_retrieval_eligible": false,
+      "installed_active_skill": false
+    },
+    {
+      "id": "EXP-20261023-five-stage-water-heat-pump",
+      "priority": "normal",
+      "rank": 100,
+      "category": "material_structure_reference",
+      "admission_state": "structure_reference_not_engineering_success",
+      "path": "pool/materials/five-stage-water-source-heat-pump.md",
+      "proposal_path": "proposals/EXP-20261023-five-stage-water-heat-pump.md",
+      "source": "explicit_user_request_to_collect_heat_pump_material",
+      "verification_scope": "topology_and_method_documentation_only_private_assets_not_published",
+      "engineering_success_claimed": false,
+      "default_canonical": false,
+      "default_retrieval_eligible": false
     }
   ]
 }
