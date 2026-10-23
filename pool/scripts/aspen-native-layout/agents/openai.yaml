@@ -1,0 +1,6 @@
+interface:
+  display_name: "Aspen 原生排布"
+  short_description: "按真实流程整理 Aspen 模块方向、流股路径并核验保存复开后的布局"
+  default_prompt: "使用 $aspen-native-layout 按当前真实模型整理 Aspen 原生流程图并核验布局保留。"
+policy:
+  allow_implicit_invocation: true

@@ -11,5 +11,8 @@
 
 这些是已存入仓库的候选和工具资料，不自动等于inbox准入或工程成功。既有记录未显式标级时按normal排序，仍保留各自原状态。
 
+- [Aspen原生排布工具与子技能候选](scripts/aspen-native-layout/README.md)：Export18图形检查/应用/复开验证、Modifier与$D、原生tools接口；完整物理卡保持不变，运行和工程验收另核。
+- [五级双工质水源热泵结构素材](materials/five-stage-water-source-heat-pump.md)：独立冷媒闭环、两种源水组织、热网串联及参数/证据边界；原模型和说明书仅存本地素材。
+
 - [ACM膜分离与工程仿真商品说明](../proposals/EXP-20261022-acm-membrane-product-methods.md)：量定义、并流累计透过、原生工况研究及文件边界；商品图形摘要与配套说明的信息分层。仅方法参考，不附工程运行成功声明或项目原件。
 
