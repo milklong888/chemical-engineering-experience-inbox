@@ -1,0 +1,41 @@
+{
+  "schema": "archive-method-reference/v1",
+  "status": "archive_reference",
+  "channel": null,
+  "executed_success": false,
+  "learning_eligible": false,
+  "success_case_eligible": false,
+  "default_rule_eligible": false,
+  "default_retrieval_eligible": false,
+  "engineering_accepted": false,
+  "aspen_executed": false,
+  "source": {
+    "identity": "New standard-library JSON contract checker and sanitized method notes",
+    "public_source_repository": null,
+    "public_source_commit": null,
+    "derivation": "Method-only abstraction; no original model source, project outputs or logs included",
+    "private_source_identity": "Original script identity retained only in ignored local audit index; not public execution evidence"
+  },
+  "test_scope": "Synthetic JSON arithmetic, invalid inputs and flags only; no ACM, Aspen, engineering or provenance certification",
+  "test_command": "python -m unittest discover -s tests -v",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "f816f0bf1fc86106a56035888d26738827485cde23bf7eaec9dc557e8193d881"
+    },
+    {
+      "path": "scripts/acm_parallel_contract_audit.py",
+      "sha256": "9ad850c06b62ae75ea5df59f1afc0ac59206d5fd7b207820b48185c158a4d723"
+    },
+    {
+      "path": "tests/test_contract.py",
+      "sha256": "4e5b18addab9e349402ae8c5b73207265d2cd24f3f6b3cf6f58023cb041f01d2"
+    }
+  ],
+  "test_result": {
+    "synthetic_test_methods": 8,
+    "passed": true,
+    "execution_scope": "offline_code_executed_only",
+    "not_an_admission_or_engineering_claim": true
+  }
+}

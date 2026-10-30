@@ -16,6 +16,20 @@
   "priority_is_not_admission": true,
   "items": [
     {
+      "id": "EXP-20261030-terminal-processing-p0",
+      "priority": "P0_bug",
+      "rank": 0,
+      "category": "user_requirement",
+      "admission_state": "maintenance_requirement_not_engineering_success",
+      "path": "proposals/EXP-20261030-terminal-processing-p0.md",
+      "source": "explicit_user_maintenance_request",
+      "subitems": [
+        "P0-018"
+      ],
+      "trigger_stage": "before_terminal_processing_and_on_topology_change_or_delivery",
+      "default_canonical": false
+    },
+    {
       "id": "EXP-20261022-knowledge-escalation-p0",
       "priority": "P0_bug",
       "rank": 0,
@@ -131,6 +145,19 @@
       "proposal_path": "proposals/EXP-20261022-acm-membrane-product-methods.md",
       "source": "explicit_user_request_to_summarize_and_update_experience_library",
       "verification_scope": "public_source_and_documentation_review_only",
+      "engineering_success_claimed": false,
+      "default_canonical": false,
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "EXP-20261030-alkaline-electrolyzer-methods",
+      "priority": "normal",
+      "rank": 100,
+      "category": "method_audit_reference",
+      "admission_state": "archive_reference_not_success",
+      "path": "archive/2026-10-30/alkaline-electrolyzer-methods/README.md",
+      "source": "explicit_user_request_for_case_methods_and_scripts",
+      "verification_scope": "synthetic_offline_json_contract_checks_only",
       "engineering_success_claimed": false,
       "default_canonical": false,
       "default_retrieval_eligible": false

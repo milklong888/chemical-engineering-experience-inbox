@@ -2,6 +2,10 @@
 
 **前置bug级要求**：[原生图谱 → 官方知识库 → 最后websearch；未知warning立即同序留账](proposals/EXP-20261022-knowledge-escalation-p0.md)。在无依据假设、写参数或改模型前触发。
 
+**出口加工bug级要求**：[出口已到冻结边界，没有真实接收要求或必要处理依据时，不追加调温、升压等加工](proposals/EXP-20261030-terminal-processing-p0.md)。拟新增出口处理之前先核，交付时沿完整尾链复查。
+
+[碱性电解方法与离线脚本参考](archive/2026-10-30/alkaline-electrolyzer-methods/README.md)：出口焓、重启、表观组分接口及广延量聚合核查；只读代码和方法参考，不是工程成功或默认参数。
+
 收集可公开、可追溯的方法经验，供维护者定期整理进 [chemical-engineering-skills](https://github.com/milklong888/chemical-engineering-skills) 和已有知识图谱。
 
 这里的条目是**临时经验**，不直接成为工程事实、Skill 默认规则或默认检索知识。仓库不包含 Aspen 模型，也不自动采集任何用户的项目。
