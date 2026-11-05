@@ -1,0 +1,57 @@
+{
+  "schema": "public-tool-maintenance-manifest-v1",
+  "version": "1.0.0",
+  "scope": "Independent local-tool catalog/invocation planning and offline file checks; no case source or engineering claim",
+  "files": [
+    {
+      "path": "toolpack.py",
+      "size": 11507,
+      "sha256": "68198c6de944d17b22dc9c9a0bf9900925d8a144c233955b70d66d5799633747"
+    },
+    {
+      "path": "tool_catalog.json",
+      "size": 1784,
+      "sha256": "371e92222970779e2f224f0b1fbda001a48e5dc8d6f5587704e1c36ce2c650c6"
+    },
+    {
+      "path": "README.md",
+      "size": 3857,
+      "sha256": "107f8efd5e716eb6ddcee3a29be32e67c24867c777b0ea7efa1b4842d9caba91"
+    },
+    {
+      "path": "SKILL.md",
+      "size": 1457,
+      "sha256": "6ee0c769dead7c6710b6b3529828201f11c0e45ec09650961877bc4fe57f2749"
+    },
+    {
+      "path": "local_settings.example.json",
+      "size": 218,
+      "sha256": "3093a124bbb6578faa85975211e6f4e3fc8829b9c5b55bd5d3521f707e848ee3"
+    },
+    {
+      "path": "LICENSE",
+      "size": 1086,
+      "sha256": "54995833d0b8bbfa08bbda6e1f45749d715f6e9184b8c68c1f0e2c9d75cc593f"
+    },
+    {
+      "path": "PUBLIC_SCOPE.md",
+      "size": 1450,
+      "sha256": "dfc43580f6518ab4a33c82fa16ce095953bc4a6802c1f8ef9631a8a0594062f1"
+    },
+    {
+      "path": "tests/test_toolpack.py",
+      "size": 6411,
+      "sha256": "417d0ad335b8bb258a95822069f29baa14743378837287cb16bd2b21b414eaa1"
+    },
+    {
+      "path": ".gitattributes",
+      "size": 100,
+      "sha256": "8b419d6f94c5346b99fdb8abbb041b94714a883d9b4833eeb30debea7e8b0d02"
+    }
+  ],
+  "code_license": "MIT",
+  "documentation_license": "CC-BY-4.0",
+  "native_execution_performed": false,
+  "inbox_admission_claimed": false,
+  "line_endings": ".gitattributes pins public text to LF so repository checkout preserves declared payload hashes"
+}
