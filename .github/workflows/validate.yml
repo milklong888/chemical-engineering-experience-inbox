@@ -25,5 +25,7 @@ jobs:
         run: python -B -X utf8 -m unittest discover -s archive/2026-10-22/smr-psa-audit-tools/tests -v
       - name: Run portable convergence diagnostics checks
         run: python -B -X utf8 -m unittest discover -s pool/scripts/convergence-diagnostics/tests -v
+      - name: Run Dynamics local tool offline checks
+        run: python -B -X utf8 -m unittest discover -s pool/scripts/aspen-dynamics-tools/tests -v
       - name: Run isolated ACM parallel contract checks
         run: python -B -X utf8 -m unittest discover -s archive/2026-10-30/alkaline-electrolyzer-methods/tests -v
