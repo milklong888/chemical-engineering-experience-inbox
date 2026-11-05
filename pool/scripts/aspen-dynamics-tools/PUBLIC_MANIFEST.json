@@ -35,17 +35,23 @@
     },
     {
       "path": "PUBLIC_SCOPE.md",
-      "size": 1432,
-      "sha256": "23b900e090b385688efcd19f8c544eb0c219bce15c66637f6def5745dcb66c10"
+      "size": 1450,
+      "sha256": "dfc43580f6518ab4a33c82fa16ce095953bc4a6802c1f8ef9631a8a0594062f1"
     },
     {
       "path": "tests/test_toolpack.py",
       "size": 6411,
       "sha256": "417d0ad335b8bb258a95822069f29baa14743378837287cb16bd2b21b414eaa1"
+    },
+    {
+      "path": ".gitattributes",
+      "size": 100,
+      "sha256": "8b419d6f94c5346b99fdb8abbb041b94714a883d9b4833eeb30debea7e8b0d02"
     }
   ],
   "code_license": "MIT",
   "documentation_license": "CC-BY-4.0",
   "native_execution_performed": false,
-  "inbox_admission_claimed": false
+  "inbox_admission_claimed": false,
+  "line_endings": ".gitattributes pins public text to LF so repository checkout preserves declared payload hashes"
 }

@@ -8,7 +8,7 @@ tool-maintenance change.
 
 Public allowlist: `toolpack.py`, `tool_catalog.json`, `README.md`, `SKILL.md`,
 `local_settings.example.json`, `LICENSE`, `PUBLIC_SCOPE.md`, and
-`tests/test_toolpack.py`, plus a generated `PUBLIC_MANIFEST.json` recording
+`tests/test_toolpack.py`, `.gitattributes`, plus a generated `PUBLIC_MANIFEST.json` recording
 these exact public bytes. Private machine settings, review receipts, case
 archives, project sources and native artifacts are excluded.
 
