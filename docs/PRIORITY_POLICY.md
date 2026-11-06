@@ -29,7 +29,7 @@ proposals/仍是公开候选摘要区；inbox/仍由维护者按照现行准入�
 
 ## 本次初始分类
 
-- P0：用户直接强调的15条工作要求，见 EXP-20261012-user-required-guards。
+- P0：2026-10-12首批15条用户工作要求；2026-10-17合并修订3条并新增2条，现共17条，见 EXP-20261012-user-required-guards。
 - 普通技巧：来源复用、UTF-8、图像语义核对、资产复制核验，见 EXP-20261012-operating-techniques。
 - 普通脚本：aspen_evidence原版纯解析模块，见 EXP-20261012-aspen-evidence-parser。
 
