@@ -1,0 +1,380 @@
+[
+  {
+    "path": "pool/materials/five-stage-water-source-heat-pump.md",
+    "source_branch": "origin/experience/native-layout-heat-pump-20261023",
+    "source_commit": "974859aff9efbe1fe34007f359fabe4bea662d8d",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "0ef190f5f464570dbac4e0488d6a811d35a3699a55288e42a1d6175b69149aa1",
+    "packaged_sha256": "0ef190f5f464570dbac4e0488d6a811d35a3699a55288e42a1d6175b69149aa1",
+    "change_from_source": "none"
+  },
+  {
+    "path": "pool/scripts/aspen-native-layout/LICENSE",
+    "source_branch": "origin/experience/native-layout-heat-pump-20261023",
+    "source_commit": "974859aff9efbe1fe34007f359fabe4bea662d8d",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "8f4bef63a4b64c590f3c18a1bab8088f6329bc22601d0df3e1ca076379e7e9d6",
+    "packaged_sha256": "8f4bef63a4b64c590f3c18a1bab8088f6329bc22601d0df3e1ca076379e7e9d6",
+    "change_from_source": "none"
+  },
+  {
+    "path": "pool/scripts/aspen-native-layout/README.md",
+    "source_branch": "origin/experience/native-layout-heat-pump-20261023",
+    "source_commit": "974859aff9efbe1fe34007f359fabe4bea662d8d",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "4faf7b55841f4ca463ee41ae831f8648dd4149873f8204e860aa02ce770cfba9",
+    "packaged_sha256": "4faf7b55841f4ca463ee41ae831f8648dd4149873f8204e860aa02ce770cfba9",
+    "change_from_source": "none"
+  },
+  {
+    "path": "pool/scripts/aspen-native-layout/SKILL.md",
+    "source_branch": "origin/experience/native-layout-heat-pump-20261023",
+    "source_commit": "974859aff9efbe1fe34007f359fabe4bea662d8d",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "c7afdf763e66d32ec3efe0c5897cda83198fe213bb9677dd56afff04643403c7",
+    "packaged_sha256": "c7afdf763e66d32ec3efe0c5897cda83198fe213bb9677dd56afff04643403c7",
+    "change_from_source": "none"
+  },
+  {
+    "path": "pool/scripts/aspen-native-layout/SOURCE_METADATA.json",
+    "source_branch": "origin/experience/native-layout-heat-pump-20261023",
+    "source_commit": "974859aff9efbe1fe34007f359fabe4bea662d8d",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "53abe0ff61bb18a6e1ef4741aa72348be5b5f3c638e5a235e30fd5041be3c953",
+    "packaged_sha256": "53abe0ff61bb18a6e1ef4741aa72348be5b5f3c638e5a235e30fd5041be3c953",
+    "change_from_source": "none"
+  },
+  {
+    "path": "pool/scripts/aspen-native-layout/agents/openai.yaml",
+    "source_branch": "origin/experience/native-layout-heat-pump-20261023",
+    "source_commit": "974859aff9efbe1fe34007f359fabe4bea662d8d",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "f37949b32909af76d3afa303516ecc5b00a3f9186e12d85591530914651f67a6",
+    "packaged_sha256": "f37949b32909af76d3afa303516ecc5b00a3f9186e12d85591530914651f67a6",
+    "change_from_source": "none"
+  },
+  {
+    "path": "pool/scripts/aspen-native-layout/pfs_layout.py",
+    "source_branch": "origin/experience/native-layout-heat-pump-20261023",
+    "source_commit": "974859aff9efbe1fe34007f359fabe4bea662d8d",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "af812aaae2e9b68b8b24d387dde1d9bb51b4cd5188d51205cf342f0fcb7d2ce4",
+    "packaged_sha256": "af812aaae2e9b68b8b24d387dde1d9bb51b4cd5188d51205cf342f0fcb7d2ce4",
+    "change_from_source": "none"
+  },
+  {
+    "path": "pool/scripts/aspen-native-layout/private_integration.py",
+    "source_branch": "origin/experience/native-layout-heat-pump-20261023",
+    "source_commit": "974859aff9efbe1fe34007f359fabe4bea662d8d",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "59619e7e728077326440a65da521b707ebb7fc33777e32209d6255a880de75eb",
+    "packaged_sha256": "59619e7e728077326440a65da521b707ebb7fc33777e32209d6255a880de75eb",
+    "change_from_source": "none"
+  },
+  {
+    "path": "pool/scripts/aspen-native-layout/references/tools-interface.md",
+    "source_branch": "origin/experience/native-layout-heat-pump-20261023",
+    "source_commit": "974859aff9efbe1fe34007f359fabe4bea662d8d",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "11d302e7f9fa2f23fb68502e34524764c4cb91537bd54551615b381be9d5825e",
+    "packaged_sha256": "11d302e7f9fa2f23fb68502e34524764c4cb91537bd54551615b381be9d5825e",
+    "change_from_source": "none"
+  },
+  {
+    "path": "pool/scripts/aspen-native-layout/tests/test_pfs_layout.py",
+    "source_branch": "origin/experience/native-layout-heat-pump-20261023",
+    "source_commit": "974859aff9efbe1fe34007f359fabe4bea662d8d",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "7ac6003aa651a011a84bd03bde160b0a3b3c689d62e9ca0825b91aeb0caf9190",
+    "packaged_sha256": "7ac6003aa651a011a84bd03bde160b0a3b3c689d62e9ca0825b91aeb0caf9190",
+    "change_from_source": "none"
+  },
+  {
+    "path": "proposals/EXP-20261023-aspen-native-layout.md",
+    "source_branch": "origin/experience/native-layout-heat-pump-20261023",
+    "source_commit": "974859aff9efbe1fe34007f359fabe4bea662d8d",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "3c7a564017fd6b5f18d4be6c6ff1a566d3e0c08c542e7388a927aee51c71c80b",
+    "packaged_sha256": "905b582398b4ee47079ec8d36dc63fe8c62a81d0d958e43cd7b3f54fa3bcc149",
+    "change_from_source": "Markdown paragraph spacing; wording preserved"
+  },
+  {
+    "path": "proposals/EXP-20261023-five-stage-water-heat-pump.md",
+    "source_branch": "origin/experience/native-layout-heat-pump-20261023",
+    "source_commit": "974859aff9efbe1fe34007f359fabe4bea662d8d",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "70fbad4e3c6f0afc7de1fbe6c30e93e1f4263893ec7d3acb9ed330602d484221",
+    "packaged_sha256": "51aee1ad0c23a579754a006c60376b3966b1e03ec90573f6104462ec5d51cbb4",
+    "change_from_source": "Markdown paragraph spacing; wording preserved"
+  },
+  {
+    "path": "pool/scripts/flowsheet-boundary-tools/README.md",
+    "source_branch": "origin/proposal/20261018-terminal-boundary-tools",
+    "source_commit": "a0dc36847cec60b3f1a468b9cd3355896ad842b5",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "48d50b462ebe5d02c3385e9c9c67dc2740121e19bb2a41a57eea985a652ecf5d",
+    "packaged_sha256": "48d50b462ebe5d02c3385e9c9c67dc2740121e19bb2a41a57eea985a652ecf5d",
+    "change_from_source": "none"
+  },
+  {
+    "path": "pool/scripts/flowsheet-boundary-tools/SOURCE_METADATA.json",
+    "source_branch": "origin/proposal/20261018-terminal-boundary-tools",
+    "source_commit": "a0dc36847cec60b3f1a468b9cd3355896ad842b5",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "199202e57baa5c83de5e684fea7d2407c4d905cdc88758a4b5fd5361efba6adb",
+    "packaged_sha256": "199202e57baa5c83de5e684fea7d2407c4d905cdc88758a4b5fd5361efba6adb",
+    "change_from_source": "none"
+  },
+  {
+    "path": "pool/scripts/flowsheet-boundary-tools/boundary_compare.py",
+    "source_branch": "origin/proposal/20261018-terminal-boundary-tools",
+    "source_commit": "a0dc36847cec60b3f1a468b9cd3355896ad842b5",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "2e9cbe12e614f6f0b0e7af236febe3d1733c87db977fc82526e1836869d324ab",
+    "packaged_sha256": "2e9cbe12e614f6f0b0e7af236febe3d1733c87db977fc82526e1836869d324ab",
+    "change_from_source": "none"
+  },
+  {
+    "path": "pool/scripts/flowsheet-boundary-tools/com_operations.py",
+    "source_branch": "origin/proposal/20261018-terminal-boundary-tools",
+    "source_commit": "a0dc36847cec60b3f1a468b9cd3355896ad842b5",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "b807405a542d388c293af05472cfd76e4a78fb1cd00b2c2153027094ec8bd287",
+    "packaged_sha256": "b807405a542d388c293af05472cfd76e4a78fb1cd00b2c2153027094ec8bd287",
+    "change_from_source": "none"
+  },
+  {
+    "path": "pool/scripts/flowsheet-boundary-tools/native_results.py",
+    "source_branch": "origin/proposal/20261018-terminal-boundary-tools",
+    "source_commit": "a0dc36847cec60b3f1a468b9cd3355896ad842b5",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "69f05ff147d438ed9cb075e81edd80eb5689b522625c0b909c7405013df272d3",
+    "packaged_sha256": "69f05ff147d438ed9cb075e81edd80eb5689b522625c0b909c7405013df272d3",
+    "change_from_source": "none"
+  },
+  {
+    "path": "pool/scripts/flowsheet-boundary-tools/tests/test_boundary_compare.py",
+    "source_branch": "origin/proposal/20261018-terminal-boundary-tools",
+    "source_commit": "a0dc36847cec60b3f1a468b9cd3355896ad842b5",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "bb678a1ef0009adb25249cb1a4cfa6cf66662cdef65190a7ee1c6424a1440132",
+    "packaged_sha256": "bb678a1ef0009adb25249cb1a4cfa6cf66662cdef65190a7ee1c6424a1440132",
+    "change_from_source": "none"
+  },
+  {
+    "path": "pool/scripts/flowsheet-boundary-tools/tests/test_com_operations.py",
+    "source_branch": "origin/proposal/20261018-terminal-boundary-tools",
+    "source_commit": "a0dc36847cec60b3f1a468b9cd3355896ad842b5",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "14f431a58048360b5cd00ba3840bac71f5136c9af6aef8dcaae9a93278761d6d",
+    "packaged_sha256": "14f431a58048360b5cd00ba3840bac71f5136c9af6aef8dcaae9a93278761d6d",
+    "change_from_source": "none"
+  },
+  {
+    "path": "pool/scripts/flowsheet-boundary-tools/tests/test_native_results.py",
+    "source_branch": "origin/proposal/20261018-terminal-boundary-tools",
+    "source_commit": "a0dc36847cec60b3f1a468b9cd3355896ad842b5",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "3c6d6c92f85c977984bbd32e87f5bff00b775b635c59b4172f3cf588e9bc2e42",
+    "packaged_sha256": "3c6d6c92f85c977984bbd32e87f5bff00b775b635c59b4172f3cf588e9bc2e42",
+    "change_from_source": "none"
+  },
+  {
+    "path": "proposals/EXP-20261018-heat-pump-flow-boundaries.md",
+    "source_branch": "origin/proposal/20261018-terminal-boundary-tools",
+    "source_commit": "a0dc36847cec60b3f1a468b9cd3355896ad842b5",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "2d05c048b58892d1621443c35bcf84010f86d4cb4af87fd8d36ccead6477625f",
+    "packaged_sha256": "2d05c048b58892d1621443c35bcf84010f86d4cb4af87fd8d36ccead6477625f",
+    "change_from_source": "none"
+  },
+  {
+    "path": "proposals/EXP-20261018-terminal-product-conditioning.md",
+    "source_branch": "origin/proposal/20261018-terminal-boundary-tools",
+    "source_commit": "a0dc36847cec60b3f1a468b9cd3355896ad842b5",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "4dfd59b9f5f511ec7ddf898c5db4599a079c02d6f114000714538e08fd589f08",
+    "packaged_sha256": "4dfd59b9f5f511ec7ddf898c5db4599a079c02d6f114000714538e08fd589f08",
+    "change_from_source": "none"
+  },
+  {
+    "path": "proposals/EXP-20261020-aspen-material-library.md",
+    "source_branch": "origin/experience/structure-cards-20261020",
+    "source_commit": "4f4da684c4b1ab798f6e5a34ddf38629a2e8110e",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "122d4865030ccbe826d5940cd302c6796bff08d70b6261f0d2823702e4eb6d05",
+    "packaged_sha256": "122d4865030ccbe826d5940cd302c6796bff08d70b6261f0d2823702e4eb6d05",
+    "change_from_source": "none"
+  },
+  {
+    "path": "proposals/EXP-20261020-aspen-small-patterns.md",
+    "source_branch": "origin/experience/structure-cards-20261020",
+    "source_commit": "4f4da684c4b1ab798f6e5a34ddf38629a2e8110e",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "1e8e28061aad115004cc0e5ac2046821c14b7e9af49b4dee9df751f2dfe085e7",
+    "packaged_sha256": "1e8e28061aad115004cc0e5ac2046821c14b7e9af49b4dee9df751f2dfe085e7",
+    "change_from_source": "none"
+  },
+  {
+    "path": "proposals/EXP-20261020-aspen-structure-card-index.json",
+    "source_branch": "origin/experience/structure-cards-20261020",
+    "source_commit": "4f4da684c4b1ab798f6e5a34ddf38629a2e8110e",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "614407c8fb5643536ead5c9da6c34fe250e468712718a6314e510b907af7b57e",
+    "packaged_sha256": "614407c8fb5643536ead5c9da6c34fe250e468712718a6314e510b907af7b57e",
+    "change_from_source": "none"
+  },
+  {
+    "path": "proposals/EXP-20261020-double-effect-adversarial-10.md",
+    "source_branch": "origin/experience/structure-cards-20261020",
+    "source_commit": "4f4da684c4b1ab798f6e5a34ddf38629a2e8110e",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "7bdd0faf61a3661b12ea6ebf6af99f5855b7d1dec139532b40eae56968038151",
+    "packaged_sha256": "7bdd0faf61a3661b12ea6ebf6af99f5855b7d1dec139532b40eae56968038151",
+    "change_from_source": "none"
+  },
+  {
+    "path": "proposals/EXP-20261020-double-effect-connections-detail.md",
+    "source_branch": "origin/experience/structure-cards-20261020",
+    "source_commit": "4f4da684c4b1ab798f6e5a34ddf38629a2e8110e",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "6cd51fa6d1d7c7c216e9095052020665de858bd4a27be944e9956093ae86d363",
+    "packaged_sha256": "6cd51fa6d1d7c7c216e9095052020665de858bd4a27be944e9956093ae86d363",
+    "change_from_source": "none"
+  },
+  {
+    "path": "proposals/EXP-20261020-double-effect-fresh-context-test.md",
+    "source_branch": "origin/experience/structure-cards-20261020",
+    "source_commit": "4f4da684c4b1ab798f6e5a34ddf38629a2e8110e",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "41025fee7bd67b9439817b2cf84d7ccfee3ac4f7107db73fd034367c66ef7274",
+    "packaged_sha256": "41025fee7bd67b9439817b2cf84d7ccfee3ac4f7107db73fd034367c66ef7274",
+    "change_from_source": "none"
+  },
+  {
+    "path": "proposals/EXP-20261020-double-effect-harness.md",
+    "source_branch": "origin/experience/structure-cards-20261020",
+    "source_commit": "4f4da684c4b1ab798f6e5a34ddf38629a2e8110e",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "95b7527dddeaf0199e57f7dba837962a88ab4313a160452d25bd87e880083de3",
+    "packaged_sha256": "95b7527dddeaf0199e57f7dba837962a88ab4313a160452d25bd87e880083de3",
+    "change_from_source": "none"
+  },
+  {
+    "path": "proposals/EXP-20261020-double-effect-round3.md",
+    "source_branch": "origin/experience/structure-cards-20261020",
+    "source_commit": "4f4da684c4b1ab798f6e5a34ddf38629a2e8110e",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "b761d77e77402358e5f079294e924fb5463d17bee032f6c8b86f552f0b13f08f",
+    "packaged_sha256": "b761d77e77402358e5f079294e924fb5463d17bee032f6c8b86f552f0b13f08f",
+    "change_from_source": "none"
+  },
+  {
+    "path": "proposals/EXP-20261020-double-effect-structure.md",
+    "source_branch": "origin/experience/structure-cards-20261020",
+    "source_commit": "4f4da684c4b1ab798f6e5a34ddf38629a2e8110e",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "e1061d189740c9067631d473fda6a87c2557a8df4614a7fc1f246928770fa67b",
+    "packaged_sha256": "e1061d189740c9067631d473fda6a87c2557a8df4614a7fc1f246928770fa67b",
+    "change_from_source": "none"
+  },
+  {
+    "path": "skill_candidates/aspen-double-effect-distillation/SKILL.md",
+    "source_branch": "origin/experience/structure-cards-20261020",
+    "source_commit": "4f4da684c4b1ab798f6e5a34ddf38629a2e8110e",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "33bf18085e5f8000c01e61bfbb13db066f97b7f6f71846cce760826459fc4e7a",
+    "packaged_sha256": "33bf18085e5f8000c01e61bfbb13db066f97b7f6f71846cce760826459fc4e7a",
+    "change_from_source": "none"
+  },
+  {
+    "path": "skill_candidates/aspen-double-effect-distillation/assets/01-once-through-kettle-local.svg",
+    "source_branch": "origin/experience/structure-cards-20261020",
+    "source_commit": "4f4da684c4b1ab798f6e5a34ddf38629a2e8110e",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "533e6c2bcc1ad4b81cf06e6d64254d1a71536a7a8525c4cbc08c68a16ddb7a17",
+    "packaged_sha256": "533e6c2bcc1ad4b81cf06e6d64254d1a71536a7a8525c4cbc08c68a16ddb7a17",
+    "change_from_source": "none"
+  },
+  {
+    "path": "skill_candidates/aspen-double-effect-distillation/assets/02-partial-heat-recovery-local.svg",
+    "source_branch": "origin/experience/structure-cards-20261020",
+    "source_commit": "4f4da684c4b1ab798f6e5a34ddf38629a2e8110e",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "14abbcacad5c5fe546e3cf3864a2270ba443f5617f29b21a3fcc9ef588adbcc8",
+    "packaged_sha256": "14abbcacad5c5fe546e3cf3864a2270ba443f5617f29b21a3fcc9ef588adbcc8",
+    "change_from_source": "none"
+  },
+  {
+    "path": "skill_candidates/aspen-double-effect-distillation/assets/03-thermosiphon-vs-forced-circulation-local.svg",
+    "source_branch": "origin/experience/structure-cards-20261020",
+    "source_commit": "4f4da684c4b1ab798f6e5a34ddf38629a2e8110e",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "c889a64ac42c615b3485385133d468b53723ec28525b8d45c09658aaa2dc3f35",
+    "packaged_sha256": "c889a64ac42c615b3485385133d468b53723ec28525b8d45c09658aaa2dc3f35",
+    "change_from_source": "none"
+  },
+  {
+    "path": "skill_candidates/aspen-double-effect-distillation/assets/04-common-tank-boundary-local.svg",
+    "source_branch": "origin/experience/structure-cards-20261020",
+    "source_commit": "4f4da684c4b1ab798f6e5a34ddf38629a2e8110e",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "0102e7722bce822d5bff3ae131aba88d5b49cd972dcaaef3355d7dbc84f88f13",
+    "packaged_sha256": "0102e7722bce822d5bff3ae131aba88d5b49cd972dcaaef3355d7dbc84f88f13",
+    "change_from_source": "none"
+  },
+  {
+    "path": "skill_candidates/aspen-double-effect-distillation/assets/generate_common_tank.py",
+    "source_branch": "origin/experience/structure-cards-20261020",
+    "source_commit": "4f4da684c4b1ab798f6e5a34ddf38629a2e8110e",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "0f599269fec6d5fd792ed936aa2d4f635ab08463f1c18b681ddb0fc0fa8d4f1e",
+    "packaged_sha256": "0f599269fec6d5fd792ed936aa2d4f635ab08463f1c18b681ddb0fc0fa8d4f1e",
+    "change_from_source": "none"
+  },
+  {
+    "path": "skill_candidates/aspen-double-effect-distillation/assets/generate_structures.py",
+    "source_branch": "origin/experience/structure-cards-20261020",
+    "source_commit": "4f4da684c4b1ab798f6e5a34ddf38629a2e8110e",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "7af5f1803e5444fbf8952df4388ada2808426b15f0347f29d963bdf5167ad6b0",
+    "packaged_sha256": "7af5f1803e5444fbf8952df4388ada2808426b15f0347f29d963bdf5167ad6b0",
+    "change_from_source": "none"
+  },
+  {
+    "path": "skill_candidates/aspen-double-effect-distillation/references/FIGURES.md",
+    "source_branch": "origin/experience/structure-cards-20261020",
+    "source_commit": "4f4da684c4b1ab798f6e5a34ddf38629a2e8110e",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "46a140318230108228c7dadf92ad22240814f2884c8a47a8fd2bae8107944681",
+    "packaged_sha256": "46a140318230108228c7dadf92ad22240814f2884c8a47a8fd2bae8107944681",
+    "change_from_source": "none"
+  },
+  {
+    "path": "proposals/EXP-20261017-process-review-working-method.md",
+    "source_branch": "origin/experience/verifiable-acceptance-20261017",
+    "source_commit": "2a1d8ae00d1f2266268bf6d71f9b834bda45844f",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "baa3ea950cd5c51bad727cb0c43fc4de4e78375e313118afc77107c089c7ea29",
+    "packaged_sha256": "baa3ea950cd5c51bad727cb0c43fc4de4e78375e313118afc77107c089c7ea29",
+    "change_from_source": "none"
+  },
+  {
+    "path": "proposals/EXP-20261017-verifiable-acceptance-and-closure.md",
+    "source_branch": "origin/experience/verifiable-acceptance-20261017",
+    "source_commit": "2a1d8ae00d1f2266268bf6d71f9b834bda45844f",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "9ca857122a9ac3b3cbdaeb8890829b7e7776172129832a089f80e37baa46d6e3",
+    "packaged_sha256": "9ca857122a9ac3b3cbdaeb8890829b7e7776172129832a089f80e37baa46d6e3",
+    "change_from_source": "none"
+  },
+  {
+    "path": "proposals/EXP-20261029-method-persistence.md",
+    "source_branch": "origin/proposal/method-persistence-20261029",
+    "source_commit": "63c1ce93a8416c19f277d18f693ea6ef1b44bb58",
+    "scope": "previously public candidate source; no canonical admission or engineering upgrade",
+    "source_sha256": "44c4c6190dc62005f4eb2c69057b808170e883938b0cbcc04d42b286f9c0b34e",
+    "packaged_sha256": "44c4c6190dc62005f4eb2c69057b808170e883938b0cbcc04d42b286f9c0b34e",
+    "change_from_source": "none"
+  }
+]

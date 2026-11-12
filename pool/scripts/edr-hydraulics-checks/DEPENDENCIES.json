@@ -1,0 +1,17 @@
+{
+  "schema": "module-dependencies-v1",
+  "python": ">=3.10",
+  "core": {
+    "third_party": [],
+    "installation_required": false
+  },
+  "optional_mcp": {
+    "requirement": "mcp>=1.28.1,<2",
+    "api": "mcp.server.fastmcp.FastMCP",
+    "transport": "stdio",
+    "dependency_lock": null,
+    "note": "Compatibility range is not a tested-version claim; see actual verification record."
+  },
+  "native_software_required": [],
+  "environment_mutation_performed": false
+}

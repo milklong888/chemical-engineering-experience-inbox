@@ -1,0 +1,115 @@
+{
+  "schema": "portable-module-manifest-v1",
+  "hash": "sha256",
+  "excluded": [
+    "FILE_MANIFEST.json",
+    "**/__pycache__/**"
+  ],
+  "files": [
+    {
+      "path": "DEPENDENCIES.json",
+      "bytes": 470,
+      "sha256": "69d14768c27408f20a601095af43683051ce2ffa43e25e6c445ed6f07d03c21e"
+    },
+    {
+      "path": "docs/API.md",
+      "bytes": 12396,
+      "sha256": "01af6d2c2169922a38f8ff44a5ec4c42ae50915b87b62e898310c527003b4e9a"
+    },
+    {
+      "path": "docs/RULES.md",
+      "bytes": 7056,
+      "sha256": "507c76611026285a3dc91376550de750e7fc491ba73f705b17774bd05d460811"
+    },
+    {
+      "path": "examples/exchanger.json",
+      "bytes": 3351,
+      "sha256": "5c5520086c8bb3c7eeccb7967cc99ec7aa5d1d5a992df59ec35e0b6dfeebe544"
+    },
+    {
+      "path": "examples/geometry.json",
+      "bytes": 1458,
+      "sha256": "7ec9573c9fc7d9c5cf740b2ddd5c3d73d1620647eb8f66bc303b3c2d8c287462"
+    },
+    {
+      "path": "examples/packed.json",
+      "bytes": 3307,
+      "sha256": "33b87d211d03b4329c47592c9ca1e9dccab55af3a9d98eda142a73efcffb3968"
+    },
+    {
+      "path": "examples/pipe.json",
+      "bytes": 758,
+      "sha256": "f1e71a5123c7015b80164cc97c03833a201de6a133c605e3b690216f278f6af8"
+    },
+    {
+      "path": "examples/README.md",
+      "bytes": 398,
+      "sha256": "9c13f60ce8addc0100047dfbcdf8517007cbdd37410634b51172631aa05b72d7"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1148,
+      "sha256": "7b28b76dc489b1850f4774cd78f83d6008a0f1255756768b6fbac0752560c215"
+    },
+    {
+      "path": "mcp-config.example.toml",
+      "bytes": 314,
+      "sha256": "1d1e2c14ee26db9f0b76c2462e7c55300b9382d6dd8f9a711906b57f893cc6da"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 1165,
+      "sha256": "b7528192acc9facbd9539dda27a4d4cd72b4fa3a81a7847c91ae9a67ce03c348"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4311,
+      "sha256": "b422fc8e3ee921cc0a8ce9195f1a039571c9b75618843d0b30c9a1345bcd6c5c"
+    },
+    {
+      "path": "requirements-core.txt",
+      "bytes": 71,
+      "sha256": "f9cedae2c4b4cb90e89e802a582e2b0ffad8488f72e3b7ed520e34079a939dde"
+    },
+    {
+      "path": "requirements-mcp.txt",
+      "bytes": 77,
+      "sha256": "1c7d941f6a5c543480f1dc60e80d165dc9d2a1b6be13057caf96a01fd088ff61"
+    },
+    {
+      "path": "scripts/checks_mcp.py",
+      "bytes": 371,
+      "sha256": "8495fae4acbde044b4321986a941ee4a5b671b41b9d5d5b14dd03c3289e5be8e"
+    },
+    {
+      "path": "scripts/engineering_checks.py",
+      "bytes": 27675,
+      "sha256": "686ea4c7a3883bc5eb10eafce0837b978633f7099c1aae0e66881073ec2d737a"
+    },
+    {
+      "path": "scripts/verify_manifest.py",
+      "bytes": 1933,
+      "sha256": "a7f6ca9173568bd643e696d7882741b294c9229467bb98261b40f861386a7c91"
+    },
+    {
+      "path": "SOURCE_METADATA.json",
+      "bytes": 2893,
+      "sha256": "2de1d50e70dd8225ec019c12e49a51ce1177f86ec5f611c4563c1899e23a56c5"
+    },
+    {
+      "path": "tests/test_engineering_checks.py",
+      "bytes": 25130,
+      "sha256": "d85bc3ad673f1bda0e57c5661bc52df05aa7b467f87703359ef1419ddc9a2c04"
+    },
+    {
+      "path": "tests/test_package.py",
+      "bytes": 3034,
+      "sha256": "5c1212ecb755b2fed8b8aa12a30bee5718d214c1f871cd1379f202af630d2605"
+    },
+    {
+      "path": "VERIFICATION.json",
+      "bytes": 1667,
+      "sha256": "fe65f3d7de192c873a8f0bcf56e8d1788151eed997bb1ff6ca79307e46646b33"
+    }
+  ]
+}

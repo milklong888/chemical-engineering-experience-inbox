@@ -1,0 +1,276 @@
+{
+  "schema": "experience-module-catalog-v1",
+  "audit_date": "2026-11-12",
+  "one_time_audit": true,
+  "modules": [
+    {
+      "id": "admission",
+      "name": "经验准入与事实核对",
+      "kind": "cli",
+      "root": "scripts",
+      "entrypoints": [
+        "scripts/validate_experience.py",
+        "scripts/observe_github_check.py"
+      ],
+      "rules": [
+        "docs/ADMISSION_PROTOCOL.md",
+        "docs/PRIORITY_POLICY.md"
+      ],
+      "tests": [
+        "tests"
+      ],
+      "dependencies": [
+        "Python >=3.10 standard library",
+        "GitHub observation additionally requires gh CLI/network"
+      ],
+      "limits": "Offline or document scope only; no engineering acceptance",
+      "canonical_admitted": false
+    },
+    {
+      "id": "aspen-evidence",
+      "name": "Aspen证据解析",
+      "kind": "library",
+      "root": "pool/scripts/aspen-evidence",
+      "entrypoints": [
+        "pool/scripts/aspen-evidence/aspen_evidence.py"
+      ],
+      "rules": [
+        "pool/scripts/aspen-evidence/README.md"
+      ],
+      "tests": [
+        "pool/scripts/aspen-evidence/tests"
+      ],
+      "dependencies": [
+        "No standalone native runner; Dynamics MCP history tool reuses this implementation"
+      ],
+      "limits": "Offline or document scope only; no engineering acceptance",
+      "canonical_admitted": false
+    },
+    {
+      "id": "local-artifact-delivery",
+      "name": "本地文件交付",
+      "kind": "cli",
+      "root": "pool/scripts/local-artifact-delivery",
+      "entrypoints": [
+        "pool/scripts/local-artifact-delivery/artifact_bridge.py"
+      ],
+      "rules": [
+        "pool/scripts/local-artifact-delivery/README.md"
+      ],
+      "tests": [
+        "pool/scripts/local-artifact-delivery/tests"
+      ],
+      "dependencies": [
+        "Standard library; explicit local HTTP service lifecycle"
+      ],
+      "limits": "Offline or document scope only; no engineering acceptance",
+      "canonical_admitted": false
+    },
+    {
+      "id": "convergence-diagnostics",
+      "name": "收敛诊断",
+      "kind": "cli",
+      "root": "pool/scripts/convergence-diagnostics",
+      "entrypoints": [
+        "pool/scripts/convergence-diagnostics/audit_precision_trials.py"
+      ],
+      "rules": [
+        "pool/techniques/convergence-diagnostics.md"
+      ],
+      "tests": [
+        "pool/scripts/convergence-diagnostics/tests"
+      ],
+      "dependencies": [
+        "Standard library; provided observations, not native solver"
+      ],
+      "limits": "Offline or document scope only; no engineering acceptance",
+      "canonical_admitted": false
+    },
+    {
+      "id": "aspen-native-layout",
+      "name": "原生流程布局",
+      "kind": "cli",
+      "root": "pool/scripts/aspen-native-layout",
+      "entrypoints": [
+        "pool/scripts/aspen-native-layout/pfs_layout.py"
+      ],
+      "rules": [
+        "pool/scripts/aspen-native-layout/SKILL.md"
+      ],
+      "tests": [
+        "pool/scripts/aspen-native-layout/tests"
+      ],
+      "dependencies": [
+        "Standard library; native import/readback requires external Aspen owner"
+      ],
+      "limits": "Offline or document scope only; no engineering acceptance",
+      "canonical_admitted": false
+    },
+    {
+      "id": "flowsheet-boundary-tools",
+      "name": "流程边界与受控回调",
+      "kind": "cli",
+      "root": "pool/scripts/flowsheet-boundary-tools",
+      "entrypoints": [
+        "pool/scripts/flowsheet-boundary-tools/boundary_compare.py"
+      ],
+      "rules": [
+        "pool/scripts/flowsheet-boundary-tools/README.md"
+      ],
+      "tests": [
+        "pool/scripts/flowsheet-boundary-tools/tests"
+      ],
+      "dependencies": [
+        "Standard library offline; COM callbacks require authorized external native runtime"
+      ],
+      "limits": "Offline or document scope only; no engineering acceptance",
+      "canonical_admitted": false
+    },
+    {
+      "id": "smr-psa-audit",
+      "name": "导出流股审计参考",
+      "kind": "cli",
+      "root": "archive/2026-10-22/smr-psa-audit-tools",
+      "entrypoints": [
+        "archive/2026-10-22/smr-psa-audit-tools/scripts/compare_exported_streams.py"
+      ],
+      "rules": [
+        "archive/2026-10-22/smr-psa-audit-tools/README.md"
+      ],
+      "tests": [
+        "archive/2026-10-22/smr-psa-audit-tools/tests"
+      ],
+      "dependencies": [
+        "Standard library; archive reference only"
+      ],
+      "limits": "Offline or document scope only; no engineering acceptance",
+      "canonical_admitted": false
+    },
+    {
+      "id": "alkaline-electrolyzer",
+      "name": "碱性电解方法",
+      "kind": "cli",
+      "root": "archive/2026-10-30/alkaline-electrolyzer-methods",
+      "entrypoints": [
+        "archive/2026-10-30/alkaline-electrolyzer-methods/scripts/acm_parallel_contract_audit.py"
+      ],
+      "rules": [
+        "archive/2026-10-30/alkaline-electrolyzer-methods/README.md"
+      ],
+      "tests": [
+        "archive/2026-10-30/alkaline-electrolyzer-methods/tests"
+      ],
+      "dependencies": [
+        "Standard library; archive reference only"
+      ],
+      "limits": "Offline or document scope only; no engineering acceptance",
+      "canonical_admitted": false
+    },
+    {
+      "id": "aspen-dynamics-tools",
+      "name": "Dynamics离线工具",
+      "kind": "mcp_cli",
+      "root": "pool/scripts/aspen-dynamics-tools",
+      "entrypoints": [
+        "pool/scripts/aspen-dynamics-tools/toolpack.py",
+        "pool/scripts/aspen-dynamics-tools/mcp_server.py"
+      ],
+      "rules": [
+        "pool/scripts/aspen-dynamics-tools/RULES.md",
+        "pool/scripts/aspen-dynamics-tools/README.md"
+      ],
+      "tests": [
+        "pool/scripts/aspen-dynamics-tools/tests"
+      ],
+      "dependencies": [
+        "Python >=3.10",
+        "MCP optional SDK: requirements-mcp.txt",
+        "History dependency: sibling aspen-evidence",
+        "Plus MCP/expert backend/native audit remain separately installed external dependencies"
+      ],
+      "limits": "5 offline MCP tools; not native Dynamics control; catalog/plan never starts external services",
+      "canonical_admitted": false
+    },
+    {
+      "id": "edr-hydraulics-checks",
+      "name": "EDR与水力学检查",
+      "kind": "mcp_cli",
+      "root": "pool/scripts/edr-hydraulics-checks",
+      "entrypoints": [
+        "pool/scripts/edr-hydraulics-checks/scripts/engineering_checks.py",
+        "pool/scripts/edr-hydraulics-checks/scripts/checks_mcp.py"
+      ],
+      "rules": [
+        "pool/scripts/edr-hydraulics-checks/docs/RULES.md",
+        "pool/scripts/edr-hydraulics-checks/docs/API.md"
+      ],
+      "tests": [
+        "pool/scripts/edr-hydraulics-checks/tests"
+      ],
+      "dependencies": [
+        "Python >=3.10 standard library for core",
+        "MCP optional SDK: requirements-mcp.txt"
+      ],
+      "limits": "4 read-only checks; operating-plot position not implemented; not EDR/native or manufacturing acceptance",
+      "canonical_admitted": false
+    },
+    {
+      "id": "double-effect-rules",
+      "name": "双效精馏结构规则",
+      "kind": "rules",
+      "root": "skill_candidates/aspen-double-effect-distillation",
+      "entrypoints": [
+        "skill_candidates/aspen-double-effect-distillation/SKILL.md"
+      ],
+      "rules": [
+        "proposals/EXP-20261020-double-effect-connections-detail.md",
+        "skill_candidates/aspen-double-effect-distillation/references/FIGURES.md"
+      ],
+      "tests": [],
+      "dependencies": [
+        "Markdown/SVG; optional stdlib figure generators"
+      ],
+      "limits": "Text and figure candidate; no executable flowsheet or native simulation claim",
+      "canonical_admitted": false
+    },
+    {
+      "id": "method-proposals",
+      "name": "其它拟定规则与方法",
+      "kind": "rules",
+      "root": "proposals",
+      "entrypoints": [],
+      "rules": [
+        "proposals/EXP-20261012-operating-techniques.md",
+        "proposals/EXP-20261012-user-required-guards.md",
+        "proposals/EXP-20261013-local-artifact-delivery.md",
+        "proposals/EXP-20261017-process-review-working-method.md",
+        "proposals/EXP-20261017-verifiable-acceptance-and-closure.md",
+        "proposals/EXP-20261018-heat-pump-flow-boundaries.md",
+        "proposals/EXP-20261018-terminal-product-conditioning.md",
+        "proposals/EXP-20261020-aspen-material-library.md",
+        "proposals/EXP-20261020-aspen-small-patterns.md",
+        "proposals/EXP-20261020-double-effect-adversarial-10.md",
+        "proposals/EXP-20261020-double-effect-connections-detail.md",
+        "proposals/EXP-20261020-double-effect-fresh-context-test.md",
+        "proposals/EXP-20261020-double-effect-harness.md",
+        "proposals/EXP-20261020-double-effect-round3.md",
+        "proposals/EXP-20261020-double-effect-structure.md",
+        "proposals/EXP-20261022-acm-membrane-product-methods.md",
+        "proposals/EXP-20261022-convergence-diagnostics.md",
+        "proposals/EXP-20261022-knowledge-escalation-p0.md",
+        "proposals/EXP-20261023-aspen-native-layout.md",
+        "proposals/EXP-20261023-five-stage-water-heat-pump.md",
+        "proposals/EXP-20261029-method-persistence.md",
+        "proposals/EXP-20261030-terminal-processing-p0.md",
+        "proposals/EXP-20261112-edr-hydraulics-maintenance-plan.md"
+      ],
+      "tests": [],
+      "dependencies": [
+        "Markdown; numerical examples retain their declared illustrative limits"
+      ],
+      "limits": "Contains P0, ACM/membrane, heat-pump boundaries, method persistence, verifiable acceptance and EDR six-item maintenance plan; no MCP needed for text-only rules",
+      "canonical_admitted": false
+    }
+  ],
+  "scope": "packaging completeness is distinct from implementation completeness, admission and engineering acceptance"
+}

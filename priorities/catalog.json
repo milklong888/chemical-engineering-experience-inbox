@@ -182,6 +182,120 @@
       "engineering_success_claimed": false,
       "default_canonical": false,
       "default_retrieval_eligible": false
+    },
+    {
+      "id": "EXP-20261023-aspen-native-layout",
+      "priority": "normal",
+      "rank": 100,
+      "category": "script_and_subskill_candidate",
+      "admission_state": "method_and_code_reference_not_engineering_success",
+      "path": "pool/scripts/aspen-native-layout/README.md",
+      "proposal_path": "proposals/EXP-20261023-aspen-native-layout.md",
+      "skill_candidate_path": "pool/scripts/aspen-native-layout/SKILL.md",
+      "interfaces_path": "pool/scripts/aspen-native-layout/references/tools-interface.md",
+      "source": "explicit_user_request_to_update_experience_first",
+      "verification_scope": "offline_graphics_code_and_bounded_private_native_roundtrip_separately_recorded",
+      "engineering_success_claimed": false,
+      "default_canonical": false,
+      "default_retrieval_eligible": false,
+      "installed_active_skill": false
+    },
+    {
+      "id": "EXP-20261023-five-stage-water-heat-pump",
+      "priority": "normal",
+      "rank": 100,
+      "category": "material_structure_reference",
+      "admission_state": "structure_reference_not_engineering_success",
+      "path": "pool/materials/five-stage-water-source-heat-pump.md",
+      "proposal_path": "proposals/EXP-20261023-five-stage-water-heat-pump.md",
+      "source": "explicit_user_request_to_collect_heat_pump_material",
+      "verification_scope": "topology_and_method_documentation_only_private_assets_not_published",
+      "engineering_success_claimed": false,
+      "default_canonical": false,
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "EXP-20261017-verifiable-acceptance-and-closure",
+      "priority": "P0_bug",
+      "category": "user_requirement",
+      "admission_state": "proposal",
+      "path": "proposals/EXP-20261017-verifiable-acceptance-and-closure.md",
+      "source": "explicit_user_requirement",
+      "subitems": [
+        "P0-016",
+        "P0-017",
+        "P0-018",
+        "P0-019",
+        "P0-020",
+        "P0-021",
+        "P0-022"
+      ],
+      "refines": [
+        "P0-009",
+        "P0-010",
+        "P0-013",
+        "P0-014"
+      ],
+      "default_canonical": false
+    },
+    {
+      "id": "EXP-20261017-process-review-working-method",
+      "priority": "normal",
+      "category": "technique",
+      "admission_state": "proposal",
+      "path": "proposals/EXP-20261017-process-review-working-method.md",
+      "source": "explicit_user_workflow_requirement",
+      "verification_scope": "behavioral_workflow_proposal_only_no_engineering_success_claim",
+      "default_canonical": false
+    },
+    {
+      "id": "EXP-20261018-terminal-product-conditioning",
+      "priority": "P0_bug",
+      "category": "user_requirement",
+      "admission_state": "proposal",
+      "path": "proposals/EXP-20261018-terminal-product-conditioning.md",
+      "source": "explicit_user_bug_classification",
+      "default_canonical": false
+    },
+    {
+      "id": "EXP-20261018-heat-pump-flow-boundaries",
+      "priority": "normal",
+      "category": "experience",
+      "admission_state": "proposal",
+      "path": "proposals/EXP-20261018-heat-pump-flow-boundaries.md",
+      "default_canonical": false
+    },
+    {
+      "id": "EXP-20261018-flowsheet-boundary-tools",
+      "priority": "normal",
+      "category": "script",
+      "admission_state": "proposal",
+      "path": "pool/scripts/flowsheet-boundary-tools/README.md",
+      "public_source_repository": "milklong888/chemical-engineering-experience-inbox",
+      "verification_scope": "bounded_synthetic_code_contracts_and_private_native_callback_readback_only",
+      "default_canonical": false
+    },
+    {
+      "id": "EXP-20261105-aspen-dynamics-tools",
+      "priority": "normal",
+      "rank": 100,
+      "category": "script_module",
+      "admission_state": "packaged_offline_tools_not_engineering_success",
+      "path": "pool/scripts/aspen-dynamics-tools/README.md",
+      "engineering_success_claimed": false,
+      "default_canonical": false,
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "EXP-20261112-edr-hydraulics-checks",
+      "priority": "normal",
+      "rank": 100,
+      "category": "script_module",
+      "admission_state": "packaged_offline_tools_not_engineering_success",
+      "path": "pool/scripts/edr-hydraulics-checks/README.md",
+      "engineering_success_claimed": false,
+      "default_canonical": false,
+      "default_retrieval_eligible": false
     }
   ]
 }

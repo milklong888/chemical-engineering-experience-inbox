@@ -1,0 +1,61 @@
+{
+  "schema": "owner-snapshot-source-v1",
+  "module": "edr-hydraulics-checks",
+  "snapshot_date": "2026-11-12",
+  "source_commit": null,
+  "public_source_commit_verified": false,
+  "source_kind": "authorized_professional_owner_snapshot",
+  "canonical_owner": "aspen-edr-rating-delivery",
+  "single_core_implementation": "scripts/engineering_checks.py",
+  "source_files": [
+    {
+      "owner": "aspen-edr-rating-delivery",
+      "path": "scripts/engineering_checks.py",
+      "owner_raw_sha256": "686ea4c7a3883bc5eb10eafce0837b978633f7099c1aae0e66881073ec2d737a",
+      "delivered_path": "scripts/engineering_checks.py",
+      "delivered_sha256": "686ea4c7a3883bc5eb10eafce0837b978633f7099c1aae0e66881073ec2d737a",
+      "transformation": "CRLF-to-LF-only; algorithm and original tests unchanged"
+    },
+    {
+      "owner": "aspen-edr-rating-delivery",
+      "path": "scripts/checks_mcp.py",
+      "owner_raw_sha256": "8495fae4acbde044b4321986a941ee4a5b671b41b9d5d5b14dd03c3289e5be8e",
+      "delivered_path": "scripts/checks_mcp.py",
+      "delivered_sha256": "8495fae4acbde044b4321986a941ee4a5b671b41b9d5d5b14dd03c3289e5be8e",
+      "transformation": "CRLF-to-LF-only; algorithm and original tests unchanged"
+    },
+    {
+      "owner": "aspen-edr-rating-delivery",
+      "path": "tests/test_engineering_checks.py",
+      "owner_raw_sha256": "d85bc3ad673f1bda0e57c5661bc52df05aa7b467f87703359ef1419ddc9a2c04",
+      "delivered_path": "tests/test_engineering_checks.py",
+      "delivered_sha256": "d85bc3ad673f1bda0e57c5661bc52df05aa7b467f87703359ef1419ddc9a2c04",
+      "transformation": "CRLF-to-LF-only; algorithm and original tests unchanged"
+    },
+    {
+      "owner": "aspen-edr-rating-delivery",
+      "path": "references/engineering_checks_tools.md",
+      "owner_raw_sha256": "62551281d5f9f06895651066f1f2424ed0993aec9482e44603bde94da65d9c45",
+      "transformation": "sanitized_method_or_interface_summary; not a verbatim source copy"
+    },
+    {
+      "owner": "aspen-edr-rating-delivery",
+      "path": "references/standards_hydraulics_workflow.md",
+      "owner_raw_sha256": "3576cb2dcf089aabef4318c82b72ebbda6a4cc873efa1ead04c7127bc6533a7a",
+      "transformation": "sanitized_method_or_interface_summary; not a verbatim source copy"
+    },
+    {
+      "owner": "chemical-tower-design",
+      "path": "references/packed_hydraulics_acceptance.md",
+      "owner_raw_sha256": "29d8482f07eb2997119dbf735d37d0032331622a09e90b5c2d9099d84c2e187a",
+      "transformation": "sanitized_method_or_interface_summary; not a verbatim source copy"
+    }
+  ],
+  "code_license": "MIT",
+  "documentation_license": "CC-BY-4.0",
+  "license_basis": "repository_owner_direct_module_maintenance_authorization",
+  "admission_state": "method_and_code_reference_not_admitted_experience",
+  "default_canonical": false,
+  "default_retrieval_eligible": false,
+  "private_runtime_paths_included": false
+}

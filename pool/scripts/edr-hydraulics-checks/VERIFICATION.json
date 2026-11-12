@@ -1,0 +1,48 @@
+{
+  "schema": "module-verification-v1",
+  "date": "2026-11-12",
+  "scope": "offline_synthetic_only",
+  "python_observed": "3.14.3",
+  "original_suite": {
+    "command": "python -B -X utf8 -m unittest discover -s tests -p test_engineering_checks.py -v",
+    "tests_run": 30,
+    "passed": 29,
+    "skipped": 1,
+    "failures": 0,
+    "errors": 0,
+    "exit_code": 0,
+    "skip_reason": "Optional mcp SDK absent from core interpreter"
+  },
+  "packaging_suite": {
+    "command": "python -B -X utf8 -m unittest discover -s tests -p test_package.py -v",
+    "tests_run": 4,
+    "passed": 4,
+    "skipped": 0,
+    "failures": 0,
+    "errors": 0,
+    "exit_code": 0,
+    "scope": "manifest exact set/hash rejection, source digest binding, four synthetic CLI examples and unchanged inputs"
+  },
+  "mcp_stdio": {
+    "status": "passed_independent_real_stdio",
+    "sdk": "mcp 1.28.1",
+    "python": "3.14.3",
+    "scope": "list4 tools; invoke4 synthetic valid requests plus3 invalid nested requests; no native simulation",
+    "live_registration_changed": false
+  },
+  "native_aspen_edr_com_started": false,
+  "engineering_acceptance": "not_assessed",
+  "native_calculation_acceptance": "not_assessed",
+  "source_public_commit_verified": false,
+  "known_gaps": [
+    "Operating-plot position is not implemented.",
+    "Native EDR/Column Internals, physical bed continuity, complete geometry and manufacturing approval are outside tool scope.",
+    "Hashes bind authorized source snapshots, not public upstream commit or native engineering success."
+  ],
+  "fresh_environment_suite": {
+    "tests_run": 34,
+    "passed": 34,
+    "skipped": 0,
+    "native_started": false
+  }
+}

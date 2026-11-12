@@ -1,0 +1,4 @@
+# Tested optional stdio transport; core tools remain standard-library where documented.
+mcp==1.28.1
+pydantic==2.13.4
+pydantic-settings==2.14.2

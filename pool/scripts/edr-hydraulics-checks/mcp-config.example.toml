@@ -1,0 +1,5 @@
+# Reviewable template only. Replace both absolute paths before registration.
+# Nothing in this package installs or registers this configuration.
+[mcp_servers.edr_hydraulics_checks_readonly]
+command = '/ABSOLUTE/PATH/TO/ISOLATED/python'
+args = ['-B', '-X', 'utf8', '/ABSOLUTE/PATH/TO/MODULE/scripts/checks_mcp.py']

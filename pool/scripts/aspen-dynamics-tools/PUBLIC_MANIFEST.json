@@ -1,0 +1,109 @@
+{
+  "schema": "public-tool-maintenance-manifest-v1",
+  "version": "1.1.0",
+  "scope": "All shipped module files except this manifest itself; optional actual MCP facade and offline tools only",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 118,
+      "sha256": "c632f3b4f87c1788e212eef00cd665ec790ab2f055c8188bd6069d05f07f6ebe"
+    },
+    {
+      "path": "DEPENDENCIES.md",
+      "size": 3885,
+      "sha256": "f08c052d48c2b711dd59dedfbf547e3a115c9619da750e6ce946005d8d8e8e78"
+    },
+    {
+      "path": "examples/demo_offline.py",
+      "size": 2255,
+      "sha256": "c5f9c232bcc620bee1d962b75df968c1018e2dddb93fffbc641c0435038afcc4"
+    },
+    {
+      "path": "LICENSE",
+      "size": 1086,
+      "sha256": "54995833d0b8bbfa08bbda6e1f45749d715f6e9184b8c68c1f0e2c9d75cc593f"
+    },
+    {
+      "path": "local_settings.example.json",
+      "size": 218,
+      "sha256": "3093a124bbb6578faa85975211e6f4e3fc8829b9c5b55bd5d3521f707e848ee3"
+    },
+    {
+      "path": "mcp_server.py",
+      "size": 1863,
+      "sha256": "d25a3fe14498ea50ed7e7c2e25fdecc2319e0b8c36c55a11d892e50221d44cf1"
+    },
+    {
+      "path": "offline_facade.py",
+      "size": 4292,
+      "sha256": "ec147fb4e66070ff91fb86d10515673355cafc9825916ee760ae6d27da8b120c"
+    },
+    {
+      "path": "PACKAGE_STATUS.json",
+      "size": 4800,
+      "sha256": "69ce2ca3ed8ec34cc6aa59bea812226f7bb07bcde57680da39dc49abe11d7edb"
+    },
+    {
+      "path": "PUBLIC_SCOPE.md",
+      "size": 1468,
+      "sha256": "48cff21e80ffeb7c2928b49f0827d3f7e0e745304fc3a77f8d2b4a5ff038d388"
+    },
+    {
+      "path": "README.md",
+      "size": 5775,
+      "sha256": "10cceb950fb49b0490f2d139d187d2cde15a33a751f8b3ce716a72e3268d3fa7"
+    },
+    {
+      "path": "requirements-mcp.txt",
+      "size": 144,
+      "sha256": "abbace83adf2b14eb9d0831b74274a36fa897ec03877dc5e2b281f5f4469a498"
+    },
+    {
+      "path": "RULES.md",
+      "size": 1442,
+      "sha256": "d5880c74b682b2886e4afa608cac3d1790f8a2f19e6916dc86c32a6fb500cc14"
+    },
+    {
+      "path": "SKILL.md",
+      "size": 1763,
+      "sha256": "e1c0af87cdddca177843fe44a3a282a84aa6c5b05c2625da74beae54e635364f"
+    },
+    {
+      "path": "SOURCE_METADATA.json",
+      "size": 4319,
+      "sha256": "cb7beb4d9985c3aadc8f90929e256ba85fe690f8b38c8dcb3c668b374aa5390b"
+    },
+    {
+      "path": "tests/test_mcp_boundary.py",
+      "size": 2197,
+      "sha256": "b97d8efb0b3a7f40fcffd5b334ea435ef8b707505552ba7d3acf7b9213310ec3"
+    },
+    {
+      "path": "tests/test_offline_facade.py",
+      "size": 8502,
+      "sha256": "3ca3ffcd3a3d70a9bcb1322d0b701963b96639d819aa2311c80369c0f6b25472"
+    },
+    {
+      "path": "tests/test_toolpack.py",
+      "size": 6411,
+      "sha256": "417d0ad335b8bb258a95822069f29baa14743378837287cb16bd2b21b414eaa1"
+    },
+    {
+      "path": "tool_catalog.json",
+      "size": 3358,
+      "sha256": "e9a3ba7c1957d3aec2eae43bd22cad798b3a56700e4873ea15b941b783beb833"
+    },
+    {
+      "path": "toolpack.py",
+      "size": 14069,
+      "sha256": "beb400950b9eb01725294f2d2c1aa8709f9654926a12ed469e8f29cb062e2fbf"
+    }
+  ],
+  "code_license": "MIT",
+  "documentation_license": "CC-BY-4.0",
+  "native_execution_performed": false,
+  "client_registration_performed": false,
+  "inbox_admission_claimed": false,
+  "external_parser_dependency": "../aspen-evidence/; pinned separately in SOURCE_METADATA.json",
+  "line_endings": ".gitattributes pins module text to LF; manifest hashes exact local bytes"
+}

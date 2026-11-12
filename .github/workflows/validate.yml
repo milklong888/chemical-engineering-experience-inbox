@@ -27,3 +27,17 @@ jobs:
         run: python -B -X utf8 -m unittest discover -s pool/scripts/convergence-diagnostics/tests -v
       - name: Run isolated ACM parallel contract checks
         run: python -B -X utf8 -m unittest discover -s archive/2026-10-30/alkaline-electrolyzer-methods/tests -v
+      - name: Check declared module coverage
+        run: python -B -X utf8 scripts/check_module_catalog.py
+      - name: Run native-layout offline tests
+        run: python -B -X utf8 -m unittest discover -s pool/scripts/aspen-native-layout/tests -v
+      - name: Run boundary-tool synthetic tests
+        run: python -B -X utf8 -m unittest discover -s pool/scripts/flowsheet-boundary-tools/tests -v
+      - name: Install optional transport test dependencies
+        run: python -m pip install -r requirements-mcp.txt
+      - name: Run Dynamics offline MCP tests
+        run: python -B -X utf8 -m unittest discover -s pool/scripts/aspen-dynamics-tools/tests -v
+      - name: Run EDR checker MCP tests
+        run: python -B -X utf8 -m unittest discover -s pool/scripts/edr-hydraulics-checks/tests -v
+      - name: Independently call Dynamics tools over stdio
+        run: python -B -X utf8 -m unittest tests.test_dynamic_mcp_transport -v
