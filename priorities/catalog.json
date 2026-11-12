@@ -161,6 +161,27 @@
       "engineering_success_claimed": false,
       "default_canonical": false,
       "default_retrieval_eligible": false
+    },
+    {
+      "id": "EXP-20261112-edr-hydraulics-maintenance-plan",
+      "priority": "normal",
+      "rank": 100,
+      "category": "maintenance_plan",
+      "admission_state": "proposed_improvements_not_engineering_success",
+      "path": "proposals/EXP-20261112-edr-hydraulics-maintenance-plan.md",
+      "source": "explicit_user_maintenance_request",
+      "subitems": [
+        "EH-01",
+        "EH-02",
+        "EH-03",
+        "EH-04",
+        "EH-05",
+        "EH-06"
+      ],
+      "verification_scope": "owner_definition_and_source_semantics_review; future_implementation_gates_listed",
+      "engineering_success_claimed": false,
+      "default_canonical": false,
+      "default_retrieval_eligible": false
     }
   ]
 }
