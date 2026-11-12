@@ -41,3 +41,6 @@ python -B -X utf8 pool/scripts/edr-hydraulics-checks/scripts/checks_mcp.py
 ## 仍属拟定/外部条件的内容
 
 六项EDR改进中的位置证据分支、诊断回执/消费端范围完善仍按[原提案](../proposals/EXP-20261112-edr-hydraulics-maintenance-plan.md)区分状态；本次补齐的是模块和接口封装，未把未实现算法改写为完成。原生审计、第三方后台和制造认证仍有各自的外部依赖。所有候选继续按准入协议审核，文件齐全、离线测试或MCP调用成功都不是工程验收。
+
+
+主库与本机规范化同步见[0.4.14同步记录](MAIN_LIBRARY_SYNC.md)，提案逐项处置见`normalized_proposals.json`。原公开候选文件保留来源身份，默认不等于正式工程经验。

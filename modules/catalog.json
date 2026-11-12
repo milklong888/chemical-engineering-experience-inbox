@@ -24,7 +24,19 @@
         "GitHub observation additionally requires gh CLI/network"
       ],
       "limits": "Offline or document scope only; no engineering acceptance",
-      "canonical_admitted": false
+      "canonical_admitted": false,
+      "normalization": {
+        "canonical_owner": "chemical-engineering-expert",
+        "action": "external_governance",
+        "implementation_state": "reference_only",
+        "main_owner_paths": [
+          "chemical-engineering-expert/references/EXPERIENCE_INBOX.md"
+        ],
+        "default_runtime_installed": false,
+        "learning_eligible": null,
+        "success_case_eligible": false,
+        "default_retrieval_eligible": null
+      }
     },
     {
       "id": "aspen-evidence",
@@ -44,7 +56,19 @@
         "No standalone native runner; Dynamics MCP history tool reuses this implementation"
       ],
       "limits": "Offline or document scope only; no engineering acceptance",
-      "canonical_admitted": false
+      "canonical_admitted": false,
+      "normalization": {
+        "canonical_owner": "aspen-plus-operations",
+        "action": "reuse_existing",
+        "implementation_state": "offline_implemented",
+        "main_owner_paths": [
+          "aspen-plus-operations/scripts/aspen_evidence.py"
+        ],
+        "default_runtime_installed": true,
+        "learning_eligible": null,
+        "success_case_eligible": false,
+        "default_retrieval_eligible": null
+      }
     },
     {
       "id": "local-artifact-delivery",
@@ -64,7 +88,19 @@
         "Standard library; explicit local HTTP service lifecycle"
       ],
       "limits": "Offline or document scope only; no engineering acceptance",
-      "canonical_admitted": false
+      "canonical_admitted": false,
+      "normalization": {
+        "canonical_owner": "aspen-plus-operations",
+        "action": "merge_code",
+        "implementation_state": "offline_implemented",
+        "main_owner_paths": [
+          "aspen-plus-operations/scripts/artifact_delivery/artifact_bridge.py"
+        ],
+        "default_runtime_installed": true,
+        "learning_eligible": null,
+        "success_case_eligible": false,
+        "default_retrieval_eligible": null
+      }
     },
     {
       "id": "convergence-diagnostics",
@@ -84,7 +120,19 @@
         "Standard library; provided observations, not native solver"
       ],
       "limits": "Offline or document scope only; no engineering acceptance",
-      "canonical_admitted": false
+      "canonical_admitted": false,
+      "normalization": {
+        "canonical_owner": "aspen-flowsheet-error-repair",
+        "action": "merge_code",
+        "implementation_state": "offline_implemented",
+        "main_owner_paths": [
+          "aspen-flowsheet-error-repair/scripts/convergence_diagnostics/audit_precision_trials.py"
+        ],
+        "default_runtime_installed": true,
+        "learning_eligible": null,
+        "success_case_eligible": false,
+        "default_retrieval_eligible": null
+      }
     },
     {
       "id": "aspen-native-layout",
@@ -104,7 +152,19 @@
         "Standard library; native import/readback requires external Aspen owner"
       ],
       "limits": "Offline or document scope only; no engineering acceptance",
-      "canonical_admitted": false
+      "canonical_admitted": false,
+      "normalization": {
+        "canonical_owner": "aspen-plus-operations",
+        "action": "merge_code",
+        "implementation_state": "offline_implemented",
+        "main_owner_paths": [
+          "aspen-plus-operations/scripts/native_layout/pfs_layout.py"
+        ],
+        "default_runtime_installed": true,
+        "learning_eligible": null,
+        "success_case_eligible": false,
+        "default_retrieval_eligible": null
+      }
     },
     {
       "id": "flowsheet-boundary-tools",
@@ -124,7 +184,19 @@
         "Standard library offline; COM callbacks require authorized external native runtime"
       ],
       "limits": "Offline or document scope only; no engineering acceptance",
-      "canonical_admitted": false
+      "canonical_admitted": false,
+      "normalization": {
+        "canonical_owner": "aspen-plus-operations",
+        "action": "merge_code",
+        "implementation_state": "offline_implemented",
+        "main_owner_paths": [
+          "aspen-plus-operations/scripts/flowsheet_boundary/boundary_compare.py"
+        ],
+        "default_runtime_installed": true,
+        "learning_eligible": null,
+        "success_case_eligible": false,
+        "default_retrieval_eligible": null
+      }
     },
     {
       "id": "smr-psa-audit",
@@ -144,7 +216,17 @@
         "Standard library; archive reference only"
       ],
       "limits": "Offline or document scope only; no engineering acceptance",
-      "canonical_admitted": false
+      "canonical_admitted": false,
+      "normalization": {
+        "canonical_owner": null,
+        "action": "excluded_archive",
+        "implementation_state": "archive_reference",
+        "main_owner_paths": [],
+        "default_runtime_installed": false,
+        "learning_eligible": false,
+        "success_case_eligible": false,
+        "default_retrieval_eligible": false
+      }
     },
     {
       "id": "alkaline-electrolyzer",
@@ -164,7 +246,17 @@
         "Standard library; archive reference only"
       ],
       "limits": "Offline or document scope only; no engineering acceptance",
-      "canonical_admitted": false
+      "canonical_admitted": false,
+      "normalization": {
+        "canonical_owner": null,
+        "action": "excluded_archive",
+        "implementation_state": "archive_reference",
+        "main_owner_paths": [],
+        "default_runtime_installed": false,
+        "learning_eligible": false,
+        "success_case_eligible": false,
+        "default_retrieval_eligible": false
+      }
     },
     {
       "id": "aspen-dynamics-tools",
@@ -189,7 +281,19 @@
         "Plus MCP/expert backend/native audit remain separately installed external dependencies"
       ],
       "limits": "5 offline MCP tools; not native Dynamics control; catalog/plan never starts external services",
-      "canonical_admitted": false
+      "canonical_admitted": false,
+      "normalization": {
+        "canonical_owner": "aspen-plus-operations",
+        "action": "merge_code",
+        "implementation_state": "offline_implemented",
+        "main_owner_paths": [
+          "aspen-plus-operations/scripts/dynamics_tools/offline_facade.py"
+        ],
+        "default_runtime_installed": true,
+        "learning_eligible": null,
+        "success_case_eligible": false,
+        "default_retrieval_eligible": null
+      }
     },
     {
       "id": "edr-hydraulics-checks",
@@ -212,7 +316,19 @@
         "MCP optional SDK: requirements-mcp.txt"
       ],
       "limits": "4 read-only checks; operating-plot position not implemented; not EDR/native or manufacturing acceptance",
-      "canonical_admitted": false
+      "canonical_admitted": false,
+      "normalization": {
+        "canonical_owner": "aspen-edr-rating-delivery",
+        "action": "merge_code",
+        "implementation_state": "offline_implemented",
+        "main_owner_paths": [
+          "aspen-edr-rating-delivery/scripts/engineering_checks.py"
+        ],
+        "default_runtime_installed": true,
+        "learning_eligible": null,
+        "success_case_eligible": false,
+        "default_retrieval_eligible": null
+      }
     },
     {
       "id": "double-effect-rules",
@@ -231,7 +347,19 @@
         "Markdown/SVG; optional stdlib figure generators"
       ],
       "limits": "Text and figure candidate; no executable flowsheet or native simulation claim",
-      "canonical_admitted": false
+      "canonical_admitted": false,
+      "normalization": {
+        "canonical_owner": "aspen-double-effect-distillation",
+        "action": "specialize",
+        "implementation_state": "source_reviewed_method",
+        "main_owner_paths": [
+          "aspen-double-effect-distillation/SKILL.md"
+        ],
+        "default_runtime_installed": true,
+        "learning_eligible": null,
+        "success_case_eligible": false,
+        "default_retrieval_eligible": null
+      }
     },
     {
       "id": "method-proposals",
@@ -269,8 +397,26 @@
         "Markdown; numerical examples retain their declared illustrative limits"
       ],
       "limits": "Contains P0, ACM/membrane, heat-pump boundaries, method persistence, verifiable acceptance and EDR six-item maintenance plan; no MCP needed for text-only rules",
-      "canonical_admitted": false
+      "canonical_admitted": false,
+      "normalization": {
+        "canonical_owner": "chemical-engineering-expert",
+        "action": "disposition_only",
+        "implementation_state": "mixed_proposals",
+        "main_owner_paths": [
+          "chemical-engineering-expert/references/NORMALIZED_MODULES.md"
+        ],
+        "default_runtime_installed": false,
+        "learning_eligible": null,
+        "success_case_eligible": false,
+        "default_retrieval_eligible": null
+      }
     }
   ],
-  "scope": "packaging completeness is distinct from implementation completeness, admission and engineering acceptance"
+  "scope": "packaging completeness is distinct from implementation completeness, admission and engineering acceptance",
+  "main_library": {
+    "repository": "milklong888/chemical-engineering-skills",
+    "commit": "6850a082c190caf2b121c3bd066a289b486ff908",
+    "version": "0.4.14",
+    "scope": "direct mechanism maintenance; not experience admission"
+  }
 }

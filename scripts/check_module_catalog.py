@@ -31,7 +31,23 @@ def check(root):
             errors.append({'module': ident, 'error': 'missing_rules_or_dependency_declaration'})
         if item['kind'] != 'rules' and (not item['entrypoints'] or not item['tests']):
             errors.append({'module': ident, 'error': 'missing_code_or_tests'})
+        normalization = item.get('normalization')
+        if normalization and normalization.get('action') == 'excluded_archive':
+            if any(normalization.get(key) is not False for key in
+                   ('default_runtime_installed', 'learning_eligible', 'success_case_eligible', 'default_retrieval_eligible')):
+                errors.append({'module': ident, 'error': 'archive_eligibility_not_preserved'})
         rows.append({'id': ident, 'kind': item['kind'], 'checked': checked})
+    if data.get('main_library'):
+        proposal_file = root / 'modules/normalized_proposals.json'
+        if not proposal_file.is_file() or proposal_file.is_symlink():
+            errors.append({'error': 'missing_normalized_proposals'})
+        else:
+            seen_rules = set()
+            for proposal in json.loads(proposal_file.read_text(encoding='utf-8'))['proposal_dispositions']:
+                for key in proposal['qualified_rule_ids']:
+                    if not key.startswith(proposal['source_id'] + '#') or key in seen_rules:
+                        errors.append({'error': 'ambiguous_qualified_rule_id', 'key': key})
+                    seen_rules.add(key)
     return {'status': 'fail' if errors else 'pass', 'module_count': len(rows),
             'modules': rows, 'errors': errors,
             'scope': 'declared file coverage only; imports, transport and native capability require separate tests',
